@@ -1,0 +1,211 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_Robin_BasicCharge
+  m_EditorClassIdentifier: 
+  Tags: 76270000
+  Buffs:
+  - Conditions: []
+    SimpleEffects:
+    - ValueType: 41
+      Value: 25
+      StackType: 1
+      CurveType: 0
+      Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 1
+        AttackType: 65535
+        Tag: 0
+        Value: 30
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 15
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 1
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    - TriggerData:
+        TriggerType: 40
+        AttackType: 65535
+        Tag: 0
+        Value: 0
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 16
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    - TriggerData:
+        TriggerType: 11
+        AttackType: 1
+        Tag: 0
+        Value: 0
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 16
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    - TriggerData:
+        TriggerType: 31
+        AttackType: 65535
+        Tag: 10104
+        Value: 0
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 16
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    - TriggerData:
+        TriggerType: 31
+        AttackType: 65535
+        Tag: 10105
+        Value: 0
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 16
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 2
+    MaxStackCount: 4
+    Level: 0
+    Tag: 0
+  VfxData:
+    Enabled: 0
+    Vfxs:
+    - Trigger: 0
+      Prefab: {fileID: 276832204424639842, guid: 2a4eb6c3893f135469a346482e15fc62, type: 3}
+      Scale: 1.5
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialDataLegacy: {fileID: 0}

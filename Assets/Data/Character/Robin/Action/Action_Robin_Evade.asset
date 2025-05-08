@@ -1,0 +1,124 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_Evade
+  m_EditorClassIdentifier: 
+  ActionKey: Evade
+  TotalFrame: 37
+  AnimationOriginalFrame: 60
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: -7.6500077
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 37.16816
+      value: 60.000057
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.05
+      value: 0
+      inSlope: 0
+      outSlope: -22.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: -4.5
+      inSlope: -22.5
+      outSlope: -10
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.41666666
+      value: -5.333333
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 3898579698079654376, guid: c1cb667d883ae6840a74425595fda12f, type: 3}
+    Position: {x: 0, y: 0.32, z: 0}
+    Rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 0
+  StatusData:
+  - Type: 4
+    StartFrame: 0
+    EndFrame: 37
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 942501e2ff3ec654887be244de5304c3, type: 2}
+  ExitableFrame: 30
+  CustomStates:
+  - Key: evadeXcombo
+    StartFrame: 15
+    EndFrame: 25
+  - Key: evadeZcombo
+    StartFrame: 25
+    EndFrame: 37
+  AttackType: 8
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  StaminaUse: 1
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

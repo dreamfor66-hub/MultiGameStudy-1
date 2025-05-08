@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Crab
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 1080
+  Speed: 6.5
+  AppearAction: {fileID: 0}
+  CommandToActions: []
+  PossibleActions:
+  - {fileID: 11400000, guid: 023b7288ba35ffb4086d27c3f6683894, type: 2}
+  - {fileID: 11400000, guid: 84ea5da4d7c51ec46862d3d4ec4b54a4, type: 2}
+  - {fileID: 11400000, guid: 1e32ded29fb99d44c8f9789d3cb7de70, type: 2}
+  - {fileID: 11400000, guid: 0d5d0a2918e179341b036ef98c6e1c44, type: 2}
+  - {fileID: 11400000, guid: 3cb8ab44c36ef0047b07093795755fd6, type: 2}
+  - {fileID: 11400000, guid: 81fe9ac6f99e90744bfe7f9aac204715, type: 2}
+  - {fileID: 11400000, guid: ab40a1beada8a1544b93fe6da54c1544, type: 2}
+  - {fileID: 11400000, guid: 2ad5c83d889e9d94d9935dabd5be9eaa, type: 2}
+  - {fileID: 11400000, guid: 5431264f48632424880196e68b29825f, type: 2}
+  DetailKnockbacks: []
+  RunStartEndAnm: 0
+  Hp:
+    BasicMaxHp: 500
+    ImmuneInstantDeath: 1
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs: []
+  IsBoss: 1
+  DefaultSuperArmor: 1

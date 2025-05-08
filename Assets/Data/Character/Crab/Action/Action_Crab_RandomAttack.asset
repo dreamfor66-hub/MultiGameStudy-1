@@ -1,0 +1,186 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Crab_RandomAttack
+  m_EditorClassIdentifier: 
+  ActionKey: RandomAttack
+  TotalFrame: 120
+  AnimationOriginalFrame: 120
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 120
+      value: 120
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 12
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 4.83, y: 0, z: -4.89}
+    Angle: 0
+    AngleY: 0
+  - Frame: 20
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -0.765, y: 0, z: -3.63}
+    Angle: 0
+    AngleY: 0
+  - Frame: 28
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -5.655, y: 0, z: -10.86}
+    Angle: 0
+    AngleY: 0
+  - Frame: 16
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -1.14, y: 0, z: 10.245}
+    Angle: 0
+    AngleY: 0
+  - Frame: 20
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -4.23, y: 0, z: 5.37}
+    Angle: 0
+    AngleY: 0
+  - Frame: 24
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 4.95, y: 0, z: 4.56}
+    Angle: 0
+    AngleY: 0
+  - Frame: 28
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -8.28, y: 0, z: -5.88}
+    Angle: 0
+    AngleY: 0
+  - Frame: 32
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -2.16, y: 0, z: -8.4}
+    Angle: 0
+    AngleY: 0
+  - Frame: 36
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 8.078, y: 0, z: 9.38}
+    Angle: 0
+    AngleY: 0
+  - Frame: 40
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -7.56, y: 0, z: 4.018}
+    Angle: 0
+    AngleY: 0
+  - Frame: 44
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 0, z: 4.71}
+    Angle: 0
+    AngleY: 0
+  - Frame: 48
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -6.48, y: 0, z: 0}
+    Angle: 0
+    AngleY: 0
+  - Frame: 52
+    BulletPrefab2: {fileID: -651347317108410971, guid: 24555d6a264524346b0dc948ee450dae, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: -7, y: 0, z: 7.14}
+    Angle: 0
+    AngleY: 0
+  VfxData:
+  - Prefab: {fileID: 4367556095037972059, guid: 84a688216f9ba654e89b2fa96349ee38, type: 3}
+    Position: {x: 0, y: 1.0863488, z: 0.44068944}
+    Rotation: {x: 0.53418267, y: -0.8453691, z: 0, w: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 0
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 120
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

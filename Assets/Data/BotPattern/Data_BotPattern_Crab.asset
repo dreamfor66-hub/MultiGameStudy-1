@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c377b5e97d4e4782e7014c892a7af9, type: 3}
+  m_Name: Data_BotPattern_Crab
+  m_EditorClassIdentifier: 
+  Phases:
+  - CounterChance: 0
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 2
+      Action: {fileID: 11400000, guid: 0d5d0a2918e179341b036ef98c6e1c44, type: 2}
+      AttackRange: 12
+      Repeat: 1
+      WaitFrameMin: 100
+      WaitFrameMax: 100
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 81fe9ac6f99e90744bfe7f9aac204715, type: 2}
+      AttackRange: 5
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 80
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 81fe9ac6f99e90744bfe7f9aac204715, type: 2}
+      AttackRange: 5
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 80
+      PatternChain:
+      - {fileID: 11400000, guid: 023b7288ba35ffb4086d27c3f6683894, type: 2}
+    - Chance: 1
+      Action: {fileID: 11400000, guid: ab40a1beada8a1544b93fe6da54c1544, type: 2}
+      AttackRange: 14
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 90
+      PatternChain: []
+    - Chance: 2
+      Action: {fileID: 11400000, guid: 1e32ded29fb99d44c8f9789d3cb7de70, type: 2}
+      AttackRange: 20
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 80
+      PatternChain:
+      - {fileID: 11400000, guid: 5431264f48632424880196e68b29825f, type: 2}
+      - {fileID: 11400000, guid: 84ea5da4d7c51ec46862d3d4ec4b54a4, type: 2}
+    CounterActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 1e32ded29fb99d44c8f9789d3cb7de70, type: 2}
+      AttackRange: 3
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain:
+      - {fileID: 11400000, guid: 2ad5c83d889e9d94d9935dabd5be9eaa, type: 2}
+      - {fileID: 11400000, guid: 84ea5da4d7c51ec46862d3d4ec4b54a4, type: 2}
+    PhaseActions: []
+    NextCondition:
+      HpLessThan: 0

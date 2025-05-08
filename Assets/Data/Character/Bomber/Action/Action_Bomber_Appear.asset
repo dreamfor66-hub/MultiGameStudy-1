@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Bomber_Appear
+  m_EditorClassIdentifier: 
+  ActionKey: Appear
+  TotalFrame: 60
+  AnimationOriginalFrame: 58
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 47.18214
+      value: 47.18214
+      inSlope: 1.0000001
+      outSlope: 0.2526483
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 90
+      value: 58
+      inSlope: 0.2526483
+      outSlope: 1
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 5014109811593315283, guid: e207b2c42756d0246b02c1bc2d2587ef, type: 3}
+    Position: {x: 0, y: 0.22, z: 0}
+    Rotation: {x: 0.7071068, y: -0, z: -0, w: 0.70710677}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 0
+  StatusData:
+  - Type: 4
+    StartFrame: 0
+    EndFrame: 90
+  - Type: 5
+    StartFrame: 0
+    EndFrame: 28
+  - Type: 1
+    StartFrame: 0
+    EndFrame: 43
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 90
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

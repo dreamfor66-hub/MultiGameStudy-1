@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_Elite_SpawnBullet_4dir
+  m_EditorClassIdentifier: 
+  Tags: 
+  Buffs:
+  - Conditions: []
+    SimpleEffects: []
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 1
+        AttackType: 65535
+        Tag: 0
+        Value: 60
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 0
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 2
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets:
+        - Frame: 0
+          Angle: 45
+          AngleY: 0
+          Speed: 12
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: 2687382710820655842, guid: 6597d9bfcf233a347903ef3f1f3eb616, type: 3}
+        - Frame: 0
+          Angle: 135
+          AngleY: 0
+          Speed: 12
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: 2687382710820655842, guid: 6597d9bfcf233a347903ef3f1f3eb616, type: 3}
+        - Frame: 0
+          Angle: 225
+          AngleY: 0
+          Speed: 12
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: 2687382710820655842, guid: 6597d9bfcf233a347903ef3f1f3eb616, type: 3}
+        - Frame: 0
+          Angle: 315
+          AngleY: 0
+          Speed: 12
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: 2687382710820655842, guid: 6597d9bfcf233a347903ef3f1f3eb616, type: 3}
+        Tag: 0
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 0
+    MaxStackCount: 0
+    Level: 0
+    Tag: 0
+    OverwriteWith: []
+  VfxData:
+    Enabled: 0
+    Vfxs: []
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialData: {fileID: 0}

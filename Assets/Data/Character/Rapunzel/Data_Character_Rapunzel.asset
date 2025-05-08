@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Rapunzel
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 1080
+  Speed: 6.5
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 4a3e211b7c55a8342a1573ac4cffc10f, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 60c23cdaa88337a4689c60d47ebf0e45, type: 2}
+  - StateKey: LightCombo02
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 1ace975d4e0aee5438e18140ded52f95, type: 2}
+  - StateKey: LightCombo03
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: b3b3d4435f89796409b01efd8711bf9c, type: 2}
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: 5c9e2c9effdea7346954f42e49e6a581, type: 2}
+  - StateKey: evadeZcombo
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: b70809900ae80e4409972140446bcf4e, type: 2}
+  PossibleActions: []
+  KnockbackMidGetUpFrame: 0
+  KnockbackMidUseHeight: 0
+  KnockbackHighGetUpFrame: 0
+  KnockbackHighUseHeight: 0
+  RunStartEndAnm: 0
+  Hp:
+    BasicMaxHp: 100
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs: []
+  IsBoss: 0
+  DefaultSuperArmor: 0

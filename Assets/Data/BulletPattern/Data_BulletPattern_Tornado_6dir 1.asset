@@ -1,0 +1,930 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 200648f801b34cfa83d6a9bf5fcaed29, type: 3}
+  m_Name: Data_BulletPattern_Tornado_6dir 1
+  m_EditorClassIdentifier: 
+  GenData:
+    Variables:
+    - Key: x
+      Min: 1
+      Max: 30
+      Excepts: 
+    - Key: y
+      Min: 1
+      Max: 4
+      Excepts: 
+    Time: x * 0.1
+    Angle: y * 60 + x * 5
+    Speed: 12
+    PosX: 0
+    PosZ: 0
+  Bullets:
+  - Time: 0.1
+    Angle: 65
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.1
+    Angle: 125
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.1
+    Angle: 185
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.1
+    Angle: 245
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.1
+    Angle: 305
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.1
+    Angle: 365
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 370
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 310
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 250
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 130
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 70
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.2
+    Angle: 190
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 75
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 135
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 195
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 255
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 315
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.3
+    Angle: 375
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 380
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 260
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 320
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 140
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 80
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.4
+    Angle: 200
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 85
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 145
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 205
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 265
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 325
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.5
+    Angle: 385
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 390
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 330
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 270
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 210
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 90
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.6
+    Angle: 150
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 95
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 155
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 215
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 275
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 335
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.7
+    Angle: 395
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 340
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 400
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 280
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 100
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 160
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.8
+    Angle: 220
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 105
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 165
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 225
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 285
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 345
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 0.90000004
+    Angle: 405
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 110
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 170
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 230
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 290
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 350
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1
+    Angle: 410
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 355
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 295
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 415
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 175
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 115
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.1
+    Angle: 235
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 120
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 180
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 240
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 300
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 360
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.2
+    Angle: 420
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 425
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 365
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 305
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 245
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 125
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.3000001
+    Angle: 185
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 130
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 190
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 250
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 310
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 370
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.4
+    Angle: 430
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 375
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 315
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 435
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 195
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 255
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.5
+    Angle: 135
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 140
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 200
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 260
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 320
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 380
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.6
+    Angle: 440
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 325
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 445
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 385
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 265
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 205
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.7
+    Angle: 145
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 150
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 210
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 270
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 330
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 390
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.8000001
+    Angle: 450
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 395
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 335
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 455
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 275
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 155
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 1.9
+    Angle: 215
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 160
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 220
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 280
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 340
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 400
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2
+    Angle: 460
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 465
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 405
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 345
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 225
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 165
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.1000001
+    Angle: 285
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 170
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 230
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 290
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 350
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 410
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.2
+    Angle: 470
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 475
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 415
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 355
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 235
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 175
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.3
+    Angle: 295
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 180
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 240
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 300
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 360
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 420
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.4
+    Angle: 480
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 485
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 425
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 365
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 245
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 185
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.5
+    Angle: 305
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 190
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 250
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 310
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 370
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 430
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.6000001
+    Angle: 490
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 495
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 435
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 375
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 255
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 195
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.7
+    Angle: 315
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 200
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 260
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 320
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 380
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 440
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.8
+    Angle: 500
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 505
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 445
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 385
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 265
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 205
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 2.9
+    Angle: 325
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 450
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 210
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 270
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 330
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 390
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}
+  - Time: 3
+    Angle: 510
+    AngleY: 0
+    Speed: 12
+    Position: {x: 0, y: 0, z: 0}

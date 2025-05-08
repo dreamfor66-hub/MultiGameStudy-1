@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: FantasyCages
+  m_Shader: {fileID: 4800000, guid: be9aece654d4cfe4cb00234cff69006b, type: 3}
+  m_ShaderKeywords: _DIRECTIONALFRESNEL_ON _SINGLECOLORFRESNEL_ON _USENORMALTEX_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: f6b0c9b78b30f7946821bfcf807f443e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: 378d1b66a4a33b745b81ac436a2a603b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Cube:
+        m_Texture: {fileID: 8900000, guid: 7b3a8207c76603e4eaf81caac37098f0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissiveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeightTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: f6b0c9b78b30f7946821bfcf807f443e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 2993d3c72e69a0d4a9883ec9691e3519, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NormalTex:
+        m_Texture: {fileID: 2800000, guid: 378d1b66a4a33b745b81ac436a2a603b, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _AlphaCutout: 0
+    - _AlphaTest: 0
+    - _AoStrength: 0.604
+    - _BumpScale: 1
+    - _CubemapBlurAmount: 1
+    - _CubemapIntensity: 1
+    - _Cull: 2
+    - _DirectionalFresnel: 1
+    - _EmissionEdgeSmooth: 1
+    - _EmissionIntensity: 0
+    - _EmissiveEdgeSmooth: 1
+    - _EmissiveIntensity: 1
+    - _FresnelIntensity: 1
+    - _FresnelSmooth: 0.099
+    - _FresnelThreshold: 0.476
+    - _GIIntensity: 1.253
+    - _MetalFresnelIntensity: 1
+    - _MetalReflProbeIntensity: 1
+    - _Metallic: 1
+    - _MetallicValue: 0.977
+    - _MidSmooth: 0
+    - _MidThreshold: 1
+    - _NormalStrength: 6.54
+    - _OutlineMainTexAmount: 0
+    - _OutlineWidth: 1
+    - _Parallax: 0.02
+    - _ParallaxAmplitude: 0
+    - _PerspectiveCorrect: 0.5
+    - _ReceiveShadowAmount: 0.809
+    - _ReflProbeBlurAmount: 1
+    - _ReflProbeIntensity: 1
+    - _ReflectSmooth: 0
+    - _ReflectThreshold: 0.535
+    - _Roughness: 1
+    - _RoughnessValue: 1
+    - _ShadowSmooth: 0
+    - _ShadowThreshold: 0.681
+    - _Shininess: 0.19187294
+    - _SingleColorFresnel: 1
+    - _SpecularIntensity: 8.22
+    - _SpecularSmooth: 0.04
+    - _SpecularThreshold: 1.455
+    - _USEEMISSIVE: 0
+    - _UseGGX: 0
+    - _UseNormalTex: 1
+    - _UseTangentOutline: 0
+    - _VertexOffset: 0
+    - _ZOffset: 0
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
+    - _FresnelColor: {r: 1, g: 1, b: 1, a: 1}
+    - _MidColor: {r: 1, g: 1, b: 1, a: 1}
+    - _OutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _ReflProbeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ReflectColor: {r: 0.1591695, g: 0.21639419, b: 0.23529407, a: 0.5019608}
+    - _ShadowColor: {r: 0.33018863, g: 0.33018863, b: 0.33018863, a: 1}
+    - _SpecColor: {r: 1, g: 1, b: 1, a: 1}
+  m_BuildTextureStacks: []

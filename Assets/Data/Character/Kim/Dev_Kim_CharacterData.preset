@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!181963792 &2655988077585873504
+Preset:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Dev_Kim_CharacterData
+  m_TargetType:
+    m_NativeTypeID: 114
+    m_ManagedTypePPtr: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+    m_ManagedTypeFallback: 
+  m_Properties:
+  - target: {fileID: 0}
+    propertyPath: m_Enabled
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorHideFlags
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: m_EditorClassIdentifier
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AccTime
+    value: 0.1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: RotateSpeed
+    value: 2160
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Speed
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WalkSpeed
+    value: 30
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: AppearAction
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.size
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].StateKey
+    value: Evadable
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].FromIdle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].FromGetup
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].DirectionMask
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].Command
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[0].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 324313ec91f9909439ff618bb3e3e006, type: 2}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].StateKey
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].FromIdle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].FromGetup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].DirectionMask
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].Command
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[1].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: ec793cc9bb9492c4a88b8ada8dd40573, type: 2}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].StateKey
+    value: 
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].FromIdle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].FromGetup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].DirectionMask
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].Command
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[2].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: f06f3b0155ec08046bcd977bf12d16f1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].StateKey
+    value: Ultimate
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].FromIdle
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].FromGetup
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].DirectionMask
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].Command
+    value: 4
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: CommandToActions.Array.data[3].Action
+    value: 
+    objectReference: {fileID: 11400000, guid: 4d8d64455d9f74940a0acbcd2a7e64e1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.size
+    value: 5
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: ec793cc9bb9492c4a88b8ada8dd40573, type: 2}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: eae0a0f4ad6d73d41a7e0c87e1e1c770, type: 2}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.data[2]
+    value: 
+    objectReference: {fileID: 11400000, guid: f06f3b0155ec08046bcd977bf12d16f1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.data[3]
+    value: 
+    objectReference: {fileID: 11400000, guid: 324313ec91f9909439ff618bb3e3e006, type: 2}
+  - target: {fileID: 0}
+    propertyPath: PossibleActions.Array.data[4]
+    value: 
+    objectReference: {fileID: 11400000, guid: 4d8d64455d9f74940a0acbcd2a7e64e1, type: 2}
+  - target: {fileID: 0}
+    propertyPath: KnockbackMidGetUpFrame
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: KnockbackMidUseHeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: KnockbackHighGetUpFrame
+    value: 40
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: KnockbackHighUseHeight
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ExtraRunAnimation
+    value: 1
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: ExtraWalkAnimation
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: WalkStartFrame
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Hp.BasicMaxHp
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Hp.ImmuneInstantDeath
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Stamina.BasicMaxStamina
+    value: 8
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Stamina.ChargingFramePerStamina
+    value: 100
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Stack.BasicMaxStack
+    value: 3
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Stack.InitStack
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Buff.StartBuffs.Array.size
+    value: 2
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: Buff.StartBuffs.Array.data[0]
+    value: 
+    objectReference: {fileID: 11400000, guid: 88ddad94a7b7c7442af0c65d1aefb0fb, type: 2}
+  - target: {fileID: 0}
+    propertyPath: Buff.StartBuffs.Array.data[1]
+    value: 
+    objectReference: {fileID: 11400000, guid: 719465d175ca9094caf34f005d381af0, type: 2}
+  - target: {fileID: 0}
+    propertyPath: IsBoss
+    value: 0
+    objectReference: {fileID: 0}
+  - target: {fileID: 0}
+    propertyPath: DefaultSuperArmor
+    value: 0
+    objectReference: {fileID: 0}
+  m_ExcludedProperties: []

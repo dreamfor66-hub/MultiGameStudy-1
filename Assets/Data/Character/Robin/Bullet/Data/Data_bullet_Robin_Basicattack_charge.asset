@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_bullet_Robin_Basicattack_charge
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 10
+    IsTeamFixed: 0
+    FixedTeam: 0
+    DespawnBy: 06000000
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 101
+      GroupId: 101
+      TeamFilter: 0
+      Condition:
+        Type: 0
+        MinFrame: 0
+        MaxFrame: 0
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 11400000, guid: 5187e1b136ec9ec4eb69315c4182b9b9, type: 2}
+        Damage: 5
+      BuffData: {fileID: 0}
+      BuffOnly: 0
+      HitOnce: 1
+      IsDirectHit: 1
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs:
+    - Trigger: 0
+      Prefab: {fileID: -2629088221614013909, guid: 3e8411acf7466f44bb2935af47d72f20, type: 3}
+      Scale: 1
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 0

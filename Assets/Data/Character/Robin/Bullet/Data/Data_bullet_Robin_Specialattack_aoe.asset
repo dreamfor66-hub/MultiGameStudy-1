@@ -1,0 +1,126 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_bullet_Robin_Specialattack_aoe
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 300
+    DespawnBy: 
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 201
+      GroupId: 201
+      Condition:
+        Type: 1
+        MinFrame: 0
+        MaxFrame: 60
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: dc51a171faf24d94a96236ad4f04c269, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    - AnchorId: 202
+      GroupId: 202
+      Condition:
+        Type: 1
+        MinFrame: 61
+        MaxFrame: 120
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: dc51a171faf24d94a96236ad4f04c269, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    - AnchorId: 203
+      GroupId: 203
+      Condition:
+        Type: 1
+        MinFrame: 121
+        MaxFrame: 180
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: dc51a171faf24d94a96236ad4f04c269, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    - AnchorId: 204
+      GroupId: 204
+      Condition:
+        Type: 1
+        MinFrame: 181
+        MaxFrame: 240
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: dc51a171faf24d94a96236ad4f04c269, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    - AnchorId: 205
+      GroupId: 205
+      Condition:
+        Type: 1
+        MinFrame: 241
+        MaxFrame: 300
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: dc51a171faf24d94a96236ad4f04c269, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0

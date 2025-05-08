@@ -1,0 +1,251 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f215b61a7ab43fcbdc8bf6f9e340edb, type: 3}
+  m_Name: Data_BotPhase_Goril_Mk2
+  m_EditorClassIdentifier: 
+  Phases:
+  - CounterChance: 0.6
+    CounterCooldownFrame: 300
+    CounterByRage: 7
+    EvadeChance: 0.3
+    EvadeCooldownFrame: 600
+    WaitDecayByHurt: 0.4
+    UpdatePatternScoreOnStart: 0
+    NextCondition:
+      HpLessThan: 0.7
+    MainLoop: 00000000
+    PatternPool:
+    - Tag: 0
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 140387c30c5b9fb439aa23cd2c264a11, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 7a14211960e9e1c4dbc3b1d3c6402ce5, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 1
+      Chance: 15
+      Pattern: {fileID: 11400000, guid: 943c56dfb9f4bbe40a67fcaa4a3e47d0, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 9838ccafa0d882b40bb435859c8a6dfa, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: 9494b5a0c0a0dbe40a99b5127ad18113, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 3
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: addd21f5b49dbfe448872e9e81430d15, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    - Tag: 3
+      Chance: 15
+      Pattern: {fileID: 11400000, guid: 76192dfdf388dd849bc5034ef181fde6, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 3
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: bb52573b99908c24cb6f415c3fa6ca01, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    MaterialData: {fileID: 0}
+  - CounterChance: 0.7
+    CounterCooldownFrame: 300
+    CounterByRage: 7
+    EvadeChance: 0.3
+    EvadeCooldownFrame: 500
+    WaitDecayByHurt: 0.4
+    UpdatePatternScoreOnStart: 0
+    NextCondition:
+      HpLessThan: 0.4
+    MainLoop: 00000000
+    PatternPool:
+    - Tag: 2
+      Chance: 100
+      Pattern: {fileID: 11400000, guid: 38780de4b63614c47b7f186f54a86918, type: 2}
+      WalkFrameMin: 40
+      WalkFrameMax: 100
+    - Tag: 0
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 140387c30c5b9fb439aa23cd2c264a11, type: 2}
+      WalkFrameMin: 0
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 4f48673f7df995b4dbd1ec6a98d66c1c, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 7a14211960e9e1c4dbc3b1d3c6402ce5, type: 2}
+      WalkFrameMin: 0
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: ab9fc383864dd46498ba1871de2a27bc, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: f63a5f90ffd127140bd23fcdd2adc8ec, type: 2}
+      WalkFrameMin: 40
+      WalkFrameMax: 90
+    - Tag: 1
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 943c56dfb9f4bbe40a67fcaa4a3e47d0, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: 9838ccafa0d882b40bb435859c8a6dfa, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: 01c05f9c6b2525444ac69d9850905110, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: bb52573b99908c24cb6f415c3fa6ca01, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    - Tag: 3
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: addd21f5b49dbfe448872e9e81430d15, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 3
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 76192dfdf388dd849bc5034ef181fde6, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 3
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 5e9356607c7c1284892c349de7a12126, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    - Tag: 3
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 4e4ecc0d5f29ecf4e957512365e49212, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    - Tag: 3
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: f18bbba444c3b4b4aad14a6c999f0423, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 330
+    MaterialData: {fileID: 11400000, guid: 56235ecfb9e70e245a2bad53c4f785ce, type: 2}
+  - CounterChance: 0.7
+    CounterCooldownFrame: 300
+    CounterByRage: 6
+    EvadeChance: 0.3
+    EvadeCooldownFrame: 500
+    WaitDecayByHurt: 0.4
+    UpdatePatternScoreOnStart: 1
+    NextCondition:
+      HpLessThan: 0
+    MainLoop: 6500000066000000
+    PatternPool:
+    - Tag: 2
+      Chance: 100
+      Pattern: {fileID: 11400000, guid: 8eb7908e3a7e6d748b44f1f0005133ec, type: 2}
+      WalkFrameMin: 0
+      WalkFrameMax: 0
+    - Tag: 101
+      Chance: 100
+      Pattern: {fileID: 11400000, guid: 0e8bf8e8af21f4941bc919d9a3cb9fa3, type: 2}
+      WalkFrameMin: 140
+      WalkFrameMax: 200
+    - Tag: 102
+      Chance: 100
+      Pattern: {fileID: 11400000, guid: 940ea6252a3f5644d957a3af52bc2755, type: 2}
+      WalkFrameMin: 40
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 10
+      Pattern: {fileID: 11400000, guid: 140387c30c5b9fb439aa23cd2c264a11, type: 2}
+      WalkFrameMin: 0
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 4f48673f7df995b4dbd1ec6a98d66c1c, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 10
+      Pattern: {fileID: 11400000, guid: 7a14211960e9e1c4dbc3b1d3c6402ce5, type: 2}
+      WalkFrameMin: 0
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: ab9fc383864dd46498ba1871de2a27bc, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 0
+      Chance: 40
+      Pattern: {fileID: 11400000, guid: f63a5f90ffd127140bd23fcdd2adc8ec, type: 2}
+      WalkFrameMin: 40
+      WalkFrameMax: 90
+    - Tag: 1
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 943c56dfb9f4bbe40a67fcaa4a3e47d0, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: 9838ccafa0d882b40bb435859c8a6dfa, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: 01c05f9c6b2525444ac69d9850905110, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 1
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: bb52573b99908c24cb6f415c3fa6ca01, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 300
+    - Tag: 3
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: addd21f5b49dbfe448872e9e81430d15, type: 2}
+      WalkFrameMin: 100
+      WalkFrameMax: 220
+    - Tag: 3
+      Chance: 20
+      Pattern: {fileID: 11400000, guid: 76192dfdf388dd849bc5034ef181fde6, type: 2}
+      WalkFrameMin: 60
+      WalkFrameMax: 90
+    - Tag: 3
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 5e9356607c7c1284892c349de7a12126, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 300
+    - Tag: 3
+      Chance: 30
+      Pattern: {fileID: 11400000, guid: 4e4ecc0d5f29ecf4e957512365e49212, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 300
+    - Tag: 3
+      Chance: 25
+      Pattern: {fileID: 11400000, guid: f18bbba444c3b4b4aad14a6c999f0423, type: 2}
+      WalkFrameMin: 150
+      WalkFrameMax: 300
+    MaterialData: {fileID: 11400000, guid: 76255134b2fa5584396a1533b88a9c24, type: 2}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_Wind_BloodWind_LV_03
+  m_EditorClassIdentifier: 
+  Tags: 02000000
+  Buffs:
+  - Conditions: []
+    SimpleEffects: []
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 11
+        AttackType: 65519
+        Tag: 0
+        Value: 0
+        EntityType: 65533
+        TriggerOnIndirectHit: 0
+        EveryNTimes: 0
+        RandomValue: 4
+        RandomMax: 10
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 1
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 0
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 1
+        Buff: {fileID: 11400000, guid: e46dff947a8e7354f9e27a62bd8c6edd, type: 2}
+        Action: {fileID: 0}
+        Bullets: []
+        Tag: 0
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 0
+    MaxStackCount: 0
+    Level: 0
+    Tag: 0
+    OverwriteWith: []
+  VfxData:
+    Enabled: 0
+    Vfxs: []
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialData: {fileID: 0}

@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_MasterCat
+  m_EditorClassIdentifier: 
+  AccTime: 0
+  RotateSpeed: 2160
+  Speed: 8
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 0
+    Command: 3
+    Action: {fileID: 11400000, guid: e75b0ae28257d97449b6b17626855eef, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    Command: 1
+    Action: {fileID: 11400000, guid: cdc6b7e3623159a4fa42b14c2dd0df46, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    Command: 2
+    Action: {fileID: 11400000, guid: ed366e3a31820bb41a54ac4adfea16a2, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    Command: 4
+    Action: {fileID: 11400000, guid: 3f0625587119de64988d434a1776ec4b, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: cdc6b7e3623159a4fa42b14c2dd0df46, type: 2}
+  - {fileID: 11400000, guid: 0beccdbb135dc21469c0ca1c2e7c7079, type: 2}
+  - {fileID: 11400000, guid: ed366e3a31820bb41a54ac4adfea16a2, type: 2}
+  - {fileID: 11400000, guid: e75b0ae28257d97449b6b17626855eef, type: 2}
+  - {fileID: 11400000, guid: e19e19c8c066d0e4e8213c1a4a97ad9c, type: 2}
+  - {fileID: 11400000, guid: 3f0625587119de64988d434a1776ec4b, type: 2}
+  KnockbackMidGetUpFrame: 50
+  KnockbackMidUseHeight: 1
+  KnockbackHighGetUpFrame: 50
+  KnockbackHighUseHeight: 1
+  RunStartEndAnm: 0
+  Hp:
+    BasicMaxHp: 100
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 3
+    InitStack: 0
+  Buff:
+    StartBuffs:
+    - {fileID: 11400000, guid: 0d7152dbc50fc4f42a77c677ec9e0430, type: 2}
+  IsBoss: 0
+  DefaultSuperArmor: 0

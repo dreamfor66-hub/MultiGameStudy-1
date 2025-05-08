@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Turtle_Shooting
+  m_EditorClassIdentifier: 
+  ActionKey: Shooting
+  TotalFrame: 170
+  AnimationOriginalFrame: 170
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 170.00002
+      value: 170.00002
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 93
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 100
+    Position: {x: 0, y: 4, z: 0}
+    Angle: -5
+    AngleY: 60
+  - Frame: 88
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 101
+    Position: {x: 0, y: 0, z: 0}
+    Angle: -20
+    AngleY: 60
+  - Frame: 100
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 102
+    Position: {x: 0, y: 0, z: 0}
+    Angle: -35
+    AngleY: 60
+  - Frame: 93
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 103
+    Position: {x: 0, y: 0, z: 0}
+    Angle: 5
+    AngleY: 60
+  - Frame: 88
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 104
+    Position: {x: 0, y: 0, z: 0}
+    Angle: 20
+    AngleY: 60
+  - Frame: 100
+    BulletPrefab2: {fileID: 2687382710820655842, guid: 84ec42bb58f184b46a1d90cc0e790a15, type: 3}
+    Speed: 20
+    AnchorUsage: 1
+    AnchorId: 105
+    Position: {x: 0, y: 0, z: 0}
+    Angle: 35
+    AngleY: 60
+  VfxData:
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: -2.8582516, y: 10.8307905, z: 2.2051077}
+    Rotation: {x: -0.6432437, y: -0.15941173, z: 0.02400109, w: 0.7484982}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 92
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: -2.4008539, y: 9.7824, z: -1.2684608}
+    Rotation: {x: -0.6986362, y: -0.1411116, z: 0.077821374, w: 0.6970931}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 87
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: -1.8045875, y: 8.037409, z: -3.6851451}
+    Rotation: {x: -0.7865705, y: -0.08135439, z: 0.02736933, w: 0.61150575}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 99
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: 2.9883597, y: 10.904232, z: 2.302245}
+    Rotation: {x: -0.16905585, y: -0.6188258, z: -0.7663477, w: -0.03443783}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 92
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: 2.4536655, y: 10.0324135, z: -1.6210157}
+    Rotation: {x: -0.1334159, y: -0.73830974, z: -0.6555438, w: -0.085798174}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 87
+  - Prefab: {fileID: 8501986860079162074, guid: 441a385666024774989fdf3dbaece22a, type: 3}
+    Position: {x: 1.724863, y: 7.6200004, z: -3.6553433}
+    Rotation: {x: -0.07872651, y: -0.79879504, z: -0.59584236, w: -0.026467718}
+    Scale: {x: 3, y: 3, z: 3}
+    StartFrame: 99
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 170
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

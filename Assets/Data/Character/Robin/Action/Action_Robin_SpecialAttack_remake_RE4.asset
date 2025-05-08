@@ -1,0 +1,334 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_SpecialAttack_remake_RE4
+  m_EditorClassIdentifier: 
+  ActionKey: SpecialAttack_remake_RE4
+  TotalFrame: 120
+  AnimationOriginalFrame: 123
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1.6542196
+      outSlope: 1.6542196
+      tangentMode: 0
+      weightedMode: 2
+      inWeight: 0
+      outWeight: 0.39423826
+    - serializedVersion: 3
+      time: 15.133622
+      value: 31.942495
+      inSlope: 0.7041435
+      outSlope: 0.8479548
+      tangentMode: 1
+      weightedMode: 3
+      inWeight: 0.67100745
+      outWeight: 0.51340115
+    - serializedVersion: 3
+      time: 17.821957
+      value: 34.06886
+      inSlope: 0.39154968
+      outSlope: 0.39154968
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.79552996
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 32.378757
+      value: 49.040874
+      inSlope: 0.53780174
+      outSlope: 0.53780174
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4858745
+    - serializedVersion: 3
+      time: 43.317795
+      value: 72.663666
+      inSlope: 1.0403367
+      outSlope: 1.0403367
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 56.190094
+      value: 80.0533
+      inSlope: 0.20532903
+      outSlope: 0.13685723
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5040948
+    - serializedVersion: 3
+      time: 64.44975
+      value: 81.18369
+      inSlope: 0.13685723
+      outSlope: 0.77027303
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.31913185
+      outWeight: 0.13881141
+    - serializedVersion: 3
+      time: 69.635155
+      value: 86.62958
+      inSlope: 0.7749903
+      outSlope: 0.28016496
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.18698081
+    - serializedVersion: 3
+      time: 102.779816
+      value: 113.540474
+      inSlope: 0.82551414
+      outSlope: 1.3048692
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.5937283
+    - serializedVersion: 3
+      time: 119.84181
+      value: 124.510864
+      inSlope: 1.4773712
+      outSlope: 1
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.50334454
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.28333333
+      value: 0
+      inSlope: 0
+      outSlope: -9.999998
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33333334
+      value: -0.5
+      inSlope: -9.999998
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 20
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 0
+    LookingTarget: 1
+  - StartFrame: 21
+    EndFrame: 26
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 60
+    LookingTarget: 1
+  - StartFrame: 27
+    EndFrame: 60
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 40
+    LookingTarget: 1
+  - StartFrame: 61
+    EndFrame: 80
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 15
+    LookingTarget: 1
+  - StartFrame: 81
+    EndFrame: 90
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 5
+    LookingTarget: 1
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.06666667
+      value: 0
+      inSlope: 0
+      outSlope: 7.4999995
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.13333334
+      value: 0.5
+      inSlope: 7.4999995
+      outSlope: -7.5000005
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: 0
+      inSlope: -7.5000005
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.28333333
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.33333334
+      value: 0
+      inSlope: 0
+      outSlope: 21.428576
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.45
+      value: 2.5
+      inSlope: 21.428576
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.48333332
+      value: 2.5
+      inSlope: 0
+      outSlope: 1.1999999
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.56666666
+      value: 2.6
+      inSlope: 1.1999999
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.65656435
+      value: 2.6
+      inSlope: 0
+      outSlope: -9.494028
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.78822607
+      value: 1.3499999
+      inSlope: -9.494028
+      outSlope: -10.510694
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.9166667
+      value: -0.00000011920929
+      inSlope: -10.510694
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 408646431305506422, guid: e4123f843acb6344196b85a7d913de24, type: 3}
+    Position: {x: 0, y: -0.04, z: 0.91}
+    Rotation: {x: 0.032606605, y: 0.7063546, z: 0.032606605, w: 0.7063546}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 50
+  - Prefab: {fileID: 5017577552883596075, guid: 90aed01b9a349a24b937f7d2f081fcd0, type: 3}
+    Position: {x: 0, y: -0, z: -1.37}
+    Rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1, y: 2, z: 2}
+    StartFrame: 17
+  - Prefab: {fileID: 7394482804613133774, guid: 1e7a2da5650f68b46972d0b49702c3c0, type: 3}
+    Position: {x: 0, y: 0.9, z: -1.12}
+    Rotation: {x: 0.36663133, y: -0, z: -0, w: -0.93036634}
+    Scale: {x: 1.2, y: 1.2, z: 0.5}
+    StartFrame: 17
+  - Prefab: {fileID: 7394482804613133774, guid: 1e7a2da5650f68b46972d0b49702c3c0, type: 3}
+    Position: {x: 0, y: 0.45, z: -1.6}
+    Rotation: {x: 0.9303675, y: 0.000000063252934, z: 0.000000041305395, w: 0.36662832}
+    Scale: {x: 0.8, y: 0.8, z: 0.7}
+    StartFrame: 17
+  - Prefab: {fileID: 5017577552883596075, guid: 90aed01b9a349a24b937f7d2f081fcd0, type: 3}
+    Position: {x: 0, y: 0, z: 0.61}
+    Rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1, y: 2, z: 2}
+    StartFrame: 50
+  StatusData:
+  - Type: 1
+    StartFrame: 15
+    EndFrame: 70
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 1
+    Buff: {fileID: 11400000, guid: 810eb09b5b610f34d833b7d37c0fc72a, type: 2}
+  ExitableFrame: 110
+  CustomStates: []
+  AttackType: 8
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 50
+  AutoCorrectionDefaultDistance: 2
+  AutoCorrectionMaxAngle: 360
+  AutoCorrectionMinAngle: 360
+  StaminaUse: 1
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

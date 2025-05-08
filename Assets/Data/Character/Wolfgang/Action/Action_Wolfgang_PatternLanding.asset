@@ -1,0 +1,135 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Wolfgang_PatternLanding
+  m_EditorClassIdentifier: 
+  ActionKey: PatternLanding
+  TotalFrame: 78
+  AnimationOriginalFrame: 54
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 15
+      value: 0
+      inSlope: -0
+      outSlope: 1.9106413
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 19.857483
+      value: 13.046659
+      inSlope: 1
+      outSlope: 0.39134344
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30.302706
+      value: 17.134329
+      inSlope: 0.39134344
+      outSlope: 0.30000007
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40.302704
+      value: 20.134329
+      inSlope: 0.30000007
+      outSlope: 1
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 78.30271
+      value: 54.134327
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 0
+    ColliderId: 105
+    StartFrame: 19
+    EndFrame: 23
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 1
+        Distance: 7
+        KnockStopFrame: 0
+        TypeRatio: 1
+      HitFx: {fileID: 11400000, guid: 57e7dc4a29c0ff54da15686287f835e5, type: 2}
+      Damage: 30
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 7928229414683625137, guid: 24a3851bf96cce045bc5d963569af369, type: 3}
+    Position: {x: 0, y: 0.2, z: 0.15}
+    Rotation: {x: 0.7071068, y: -0, z: -0, w: 0.70710677}
+    Scale: {x: 1.5, y: 1.5, z: 1.5}
+    StartFrame: 19
+  StatusData:
+  - Type: 5
+    StartFrame: 0
+    EndFrame: 15
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 78
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

@@ -1,0 +1,209 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Kim_Counter
+  m_EditorClassIdentifier: 
+  ActionKey: Counter
+  TotalFrame: 95
+  AnimationOriginalFrame: 80
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 20
+      value: 20
+      inSlope: 1.0000001
+      outSlope: 1.0000001
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 55
+      value: 50
+      inSlope: 1.0000001
+      outSlope: 0.4258966
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 69.673096
+      value: 56.24922
+      inSlope: 0.32035008
+      outSlope: 0.32035008
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 95
+      value: 80
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.11666667
+      value: 0
+      inSlope: 0
+      outSlope: 120
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.23333333
+      value: 7.4083333
+      inSlope: 7
+      outSlope: 5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.31666666
+      value: 7.825
+      inSlope: 5
+      outSlope: 5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.46666667
+      value: 8.2
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 0
+    ColliderId: 51
+    StartFrame: 7
+    EndFrame: 28
+    Info:
+      Knockback:
+        IsJustDamage: 1
+        Strength: 15
+        Distance: 0
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 11400000, guid: 149e48f8659bbd244b82fdd29c0a74f8, type: 2}
+      Damage: 3
+    BuffData: {fileID: 0}
+  - GroupId: 0
+    ColliderId: 101
+    StartFrame: 7
+    EndFrame: 28
+    Info:
+      Knockback:
+        IsJustDamage: 1
+        Strength: 15
+        Distance: 0
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 11400000, guid: 149e48f8659bbd244b82fdd29c0a74f8, type: 2}
+      Damage: 3
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: -5144159566285494015, guid: e7b3cc5947f857b4dbdf2bc18f7b4efc, type: 3}
+    Position: {x: 0, y: 1.386, z: 1.4}
+    Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    Scale: {x: 1.5000005, y: 1.5, z: 1.5000005}
+    StartFrame: 0
+  - Prefab: {fileID: -7981342544900826933, guid: 5e1fce5f144595f4a9aae110bfc37584, type: 3}
+    Position: {x: -0.6435, y: 0.90000004, z: 0}
+    Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 2
+  - Prefab: {fileID: -6044368470849955267, guid: d193dbefcb12fbc4a991ec8e9849fb0f, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+    Scale: {x: 0.66666675, y: 0.6666668, z: 0.6666668}
+    StartFrame: 0
+  - Prefab: {fileID: -8669022318754788152, guid: bb51d2e9622b0084d96394588c667334, type: 3}
+    Position: {x: 0, y: 0.93846166, z: 0.7}
+    Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    Scale: {x: 0.6, y: 1, z: 1.3}
+    StartFrame: 6
+  - Prefab: {fileID: 5175964909582140516, guid: 894c2d61886d722418181329b187fdd8, type: 3}
+    Position: {x: 0, y: 1.5, z: -13.278334}
+    Rotation: {x: 0.5, y: -0.5, z: 0.5, w: 0.5}
+    Scale: {x: 1.5, y: 1.5, z: 1.5}
+    StartFrame: 18
+  - Prefab: {fileID: 4870520558222952951, guid: 3d6067ba58703134bb5b07dd5b7fb30c, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 6
+  StatusData:
+  - Type: 1
+    StartFrame: 0
+    EndFrame: 64
+  - Type: 4
+    StartFrame: 0
+    EndFrame: 64
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 5
+    Buff: {fileID: 11400000, guid: 22600df78f26bc64f897e2d7ac323260, type: 2}
+  ExitableFrame: 74
+  CustomStates:
+  - Key: Evadable
+    StartFrame: 62
+    EndFrame: 95
+  AttackType: 2
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 1

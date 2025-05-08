@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_BasicAttack_Down
+  m_EditorClassIdentifier: 
+  ActionKey: BasicAttack_Down
+  TotalFrame: 65
+  AnimationOriginalFrame: 40
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 20
+      value: 40
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 20.01
+      value: 0
+      inSlope: 0.97814167
+      outSlope: 0.97814167
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.3074767
+    - serializedVersion: 3
+      time: 40
+      value: 40
+      inSlope: 0.96011543
+      outSlope: 0.96011543
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.25276875
+      outWeight: 0
+    - serializedVersion: 3
+      time: 40.01
+      value: 0
+      inSlope: 0.9093371
+      outSlope: 0.9093371
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.38652414
+    - serializedVersion: 3
+      time: 60
+      value: 40
+      inSlope: 1.0411772
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.35262856
+      outWeight: 0
+    - serializedVersion: 3
+      time: 65
+      value: 40
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 140
+    FixedDirMoveSpeed: 2
+    FollowTargetSpeed: 0
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 2237349009533080238, guid: 087ee1a2b3fb69744a5d237f0736fa0e, type: 3}
+    Position: {x: 0.271, y: 1.14, z: 1.27}
+    Rotation: {x: -0.0040055295, y: -0, z: -0, w: 0.999992}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 1
+  - Prefab: {fileID: 5648844727711419682, guid: 4f119a610fed1f343b74d9560261a0aa, type: 3}
+    Position: {x: 0.25, y: 1.178, z: -0.394}
+    Rotation: {x: -0.7128665, y: -0.0035453006, z: 0.007060668, w: -0.7012553}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 40
+  - Prefab: {fileID: 3068333092775943458, guid: 92e899cfba60e8d429b5f4c0d4d1bd62, type: 3}
+    Position: {x: 0.28, y: 1.136, z: 1.034}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 20
+  - Prefab: {fileID: 8126569199577163679, guid: f69aff3e8dbfe434f907e201d72a9b42, type: 3}
+    Position: {x: 0, y: 0.95, z: 0.4}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 0
+  - Prefab: {fileID: 8126569199577163679, guid: f69aff3e8dbfe434f907e201d72a9b42, type: 3}
+    Position: {x: 0, y: 0.95, z: 0.4}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 20
+  - Prefab: {fileID: 8126569199577163679, guid: f69aff3e8dbfe434f907e201d72a9b42, type: 3}
+    Position: {x: 0, y: 0.95, z: 0.4}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 40
+  - Prefab: {fileID: 2796209235164575152, guid: 78c760f6a842d054fad9d9e092b14535, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1.3, y: 1.3, z: 1.3}
+    StartFrame: 20
+  - Prefab: {fileID: 383800049021779804, guid: 16b6145e11b265f41a94fe7db948cbb8, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 1.7, y: 1.7, z: 1.7}
+    StartFrame: 40
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 65
+  CustomStates:
+  - Key: basic_charge_1_shoot
+    StartFrame: 0
+    EndFrame: 20
+  - Key: basic_charge_2_shoot
+    StartFrame: 20
+    EndFrame: 40
+  - Key: basic_charge_3_shoot
+    StartFrame: 40
+    EndFrame: 65
+  - Key: basic_charge_1_next
+    StartFrame: 59
+    EndFrame: 65
+  - Key: Evadable
+    StartFrame: 0
+    EndFrame: 65
+  AttackType: 0
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsAttack: 1

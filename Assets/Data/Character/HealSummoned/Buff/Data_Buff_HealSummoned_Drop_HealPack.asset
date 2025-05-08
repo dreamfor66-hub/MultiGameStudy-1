@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_HealSummoned_Drop_HealPack
+  m_EditorClassIdentifier: 
+  Tags: 04000000874e0000
+  Buffs:
+  - Conditions: []
+    SimpleEffects: []
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 50
+        AttackType: 65535
+        Tag: 0
+        Value: 100
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65533
+        MaxRange: 0
+        MaxNumber: 0
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 2
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets:
+        - Frame: 0
+          Angle: 0
+          AngleY: 0
+          Speed: 0
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: 2687382710820655842, guid: 9d7ed87d1f04b104d9370f1e750e0c58, type: 3}
+        Monsters: []
+        StatusType: 0
+        Tag: 0
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+      - ActiveType: 16
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Monsters: []
+        StatusType: 0
+        Tag: 99999
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 3
+    MaxStackCount: 0
+    Level: 0
+    Tag: 0
+  VfxData:
+    Enabled: 1
+    Vfxs:
+    - Trigger: 0
+      Prefab: {fileID: 3216967208044554967, guid: 026e197d62d4dfb4d9954cbf9708daa8, type: 3}
+      Scale: 1
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialDataLegacy: {fileID: 0}

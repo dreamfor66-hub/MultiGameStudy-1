@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_HealPack
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 600
+    IsTeamFixed: 0
+    FixedTeam: 0
+    DespawnBy: 01000000
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 0
+      GroupId: 0
+      TeamFilter: 2
+      Condition:
+        Type: 1
+        MinFrame: 30
+        MaxFrame: 600
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 0}
+      BuffOnly: 0
+      HitOnce: 0
+      IsDirectHit: 1
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 1
+    Bullets:
+    - ConditionType: 1
+      ConditionFrame: 0
+      ConditionEvent: 1
+      Prefab: {fileID: 3402737377050515372, guid: 1bb79c4ff47b45945960701faba40110, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 0

@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d697bc00612f55047af3da112b084779, type: 3}
+  m_Name: HitFx_Peter_ChargeAttack_03
+  m_EditorClassIdentifier: 
+  HitstopCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 8.925997
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.05566058
+      value: 0.49682614
+      inSlope: 8.925997
+      outSlope: -77.326164
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.062090144
+      value: -0.0003473875
+      inSlope: -77.326164
+      outSlope: 0.046029408
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.301619
+      value: 0.010677984
+      inSlope: 0.046029408
+      outSlope: 0.0009833758
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.7018156
+      value: 0.012054903
+      inSlope: 0.0009833758
+      outSlope: 0.3077594
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1.7985382
+      value: 0.041822195
+      inSlope: 0.3077594
+      outSlope: 0.058364052
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 2
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  HitstopTime: 0.18
+  CameraShakeLength: 1.8
+  VibrationTime: 0.15
+  HitClip: {fileID: 8300000, guid: 463e6e14d4b90a64ea86c961827ad09b, type: 3}
+  HitVfx: {fileID: -4595989127400183866, guid: 679a64adb0b04af43be54cb3fe914524, type: 3}

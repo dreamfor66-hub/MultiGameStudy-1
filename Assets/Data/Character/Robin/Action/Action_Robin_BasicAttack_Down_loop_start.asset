@@ -1,0 +1,166 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_BasicAttack_Down_loop_start
+  m_EditorClassIdentifier: 
+  ActionKey: BasicAttack_Down_loop_start
+  TotalFrame: 25
+  AnimationOriginalFrame: 72
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 2
+      inSlope: 0.24814875
+      outSlope: 0.24814875
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.21189448
+    - serializedVersion: 3
+      time: 20
+      value: 11
+      inSlope: 1.0750731
+      outSlope: 0
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.07992282
+      outWeight: 0
+    - serializedVersion: 3
+      time: 25
+      value: 11
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.15
+      value: 0.3
+      inSlope: 2
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 25
+    FixedDirMoveSpeed: 2
+    FixedRotSpeed: 0
+    FollowTargetSpeed: 0
+    LookingTarget: 0
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 2237349009533080238, guid: 087ee1a2b3fb69744a5d237f0736fa0e, type: 3}
+    Position: {x: 0.33, y: 1.03, z: 1.75}
+    Rotation: {x: -0.0040055295, y: -0, z: -0, w: 0.999992}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 0
+  - Prefab: {fileID: 3068333092775943458, guid: 92e899cfba60e8d429b5f4c0d4d1bd62, type: 3}
+    Position: {x: 0.33, y: 1.03, z: 1.609}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 0
+  - Prefab: {fileID: 8224101250791387795, guid: 66b464f7f2bc43e4ab57ff7e391aed7b, type: 3}
+    Position: {x: 0, y: 0.77, z: -0.39}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 5
+  - Prefab: {fileID: 7082799287348699897, guid: 2359c81323d470f42b2696a58376d23b, type: 3}
+    Position: {x: 0.33, y: 1.07, z: 1.83}
+    Rotation: {x: -0, y: -0, z: -0, w: 1}
+    Scale: {x: 0.8, y: 0.8, z: 0.8}
+    StartFrame: 5
+  - Prefab: {fileID: 383800049021779804, guid: 16b6145e11b265f41a94fe7db948cbb8, type: 3}
+    Position: {x: 0, y: 0, z: 0}
+    Rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 3, y: 3, z: 2}
+    StartFrame: 0
+  - Prefab: {fileID: 8126569199577163679, guid: f69aff3e8dbfe434f907e201d72a9b42, type: 3}
+    Position: {x: 0.36, y: 0.95, z: 0.4}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 5
+  - Prefab: {fileID: 19012334750955583, guid: 4197fa6aaf5356d4ab421a06e92d7b19, type: 3}
+    Position: {x: 0.16, y: 0.98, z: 3.1243885}
+    Rotation: {x: -1, y: 0, z: 0, w: 0}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 3
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 10
+    Buff: {fileID: 11400000, guid: 2030a4cc79cd0b74184e7818bc4615fd, type: 2}
+  ExitableFrame: 25
+  CustomStates:
+  - Key: Evadable
+    StartFrame: 0
+    EndFrame: 25
+  - Key: basic_charge_3_shoot
+    StartFrame: 0
+    EndFrame: 5
+  - Key: basic_charge_4_shoot
+    StartFrame: 5
+    EndFrame: 25
+  - Key: basic_charge_2_next
+    StartFrame: 20
+    EndFrame: 25
+  AttackType: 0
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 120
+  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMinAngle: 2
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

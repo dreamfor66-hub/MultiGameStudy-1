@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Kim
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 2160
+  Speed: 7
+  WalkSpeed: 2
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 1
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: 324313ec91f9909439ff618bb3e3e006, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: ec793cc9bb9492c4a88b8ada8dd40573, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 2
+    Action: {fileID: 11400000, guid: f06f3b0155ec08046bcd977bf12d16f1, type: 2}
+  - StateKey: Ultimate
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 4
+    Action: {fileID: 11400000, guid: 4d8d64455d9f74940a0acbcd2a7e64e1, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: ec793cc9bb9492c4a88b8ada8dd40573, type: 2}
+  - {fileID: 11400000, guid: eae0a0f4ad6d73d41a7e0c87e1e1c770, type: 2}
+  - {fileID: 11400000, guid: f06f3b0155ec08046bcd977bf12d16f1, type: 2}
+  - {fileID: 11400000, guid: 324313ec91f9909439ff618bb3e3e006, type: 2}
+  - {fileID: 11400000, guid: 4d8d64455d9f74940a0acbcd2a7e64e1, type: 2}
+  KnockbackMidGetUpFrame: 40
+  KnockbackMidUseHeight: 0
+  KnockbackHighGetUpFrame: 40
+  KnockbackHighUseHeight: 0
+  ExtraRunAnimation: 1
+  ExtraWalkAnimation: 0
+  WalkStartFrame: 0
+  Hp:
+    BasicMaxHp: 100
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 8
+    ChargingFramePerStamina: 100
+  Stack:
+    BasicMaxStack: 3
+    InitStack: 0
+  Buff:
+    StartBuffs:
+    - {fileID: 11400000, guid: 88ddad94a7b7c7442af0c65d1aefb0fb, type: 2}
+  IsBoss: 0
+  DefaultSuperArmor: 0

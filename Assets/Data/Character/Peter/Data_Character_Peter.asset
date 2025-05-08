@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Peter
+  m_EditorClassIdentifier: 
+  AccTime: 0.01
+  RotateSpeed: 2000
+  Speed: 10
+  WalkSpeed: 2
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: b5b43a2423e6497489d2e43f4b4a737a, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: a4bf737eaca4a3d4e94ea8a418543411, type: 2}
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: 8e7d644a95b17f146923912b4a1ad7d6, type: 2}
+  - StateKey: LightCombo02
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: c54b4aef2c5311e4fbbfc380114feeca, type: 2}
+  - StateKey: Light03Charge
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 11
+    Action: {fileID: 11400000, guid: f5801c55c48e2b74bbdeef45fac96d8d, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 2
+    Action: {fileID: 11400000, guid: 010277a6942122a4988a2b37f2cc5e30, type: 2}
+  - StateKey: SpecialCharge
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 22
+    Action: {fileID: 11400000, guid: fbefc760478fb92408eb22cc1acbf77c, type: 2}
+  - StateKey: SpecialLoop
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 21
+    Action: {fileID: 11400000, guid: ba93b99103060954393669c048e129cb, type: 2}
+  - StateKey: SpecialCharge
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 21
+    Action: {fileID: 11400000, guid: f5801c55c48e2b74bbdeef45fac96d8d, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 4
+    Action: {fileID: 11400000, guid: ff3f311f4204e0544b7d7002bdd30b71, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: 592ebee740fccb14884cd9847a805be6, type: 2}
+  - {fileID: 11400000, guid: 3f93bd77908e61348bfd75b467a1fa8e, type: 2}
+  - {fileID: 11400000, guid: d683ab00681f5314daf87f7d62f51e0b, type: 2}
+  - {fileID: 11400000, guid: ff3f311f4204e0544b7d7002bdd30b71, type: 2}
+  - {fileID: 11400000, guid: 8e7d644a95b17f146923912b4a1ad7d6, type: 2}
+  - {fileID: 11400000, guid: 010277a6942122a4988a2b37f2cc5e30, type: 2}
+  - {fileID: 11400000, guid: fbefc760478fb92408eb22cc1acbf77c, type: 2}
+  - {fileID: 11400000, guid: ba93b99103060954393669c048e129cb, type: 2}
+  - {fileID: 11400000, guid: c54b4aef2c5311e4fbbfc380114feeca, type: 2}
+  - {fileID: 11400000, guid: f5801c55c48e2b74bbdeef45fac96d8d, type: 2}
+  - {fileID: 11400000, guid: a4bf737eaca4a3d4e94ea8a418543411, type: 2}
+  - {fileID: 11400000, guid: b5b43a2423e6497489d2e43f4b4a737a, type: 2}
+  KnockbackMidGetUpFrame: 44
+  KnockbackMidUseHeight: 1
+  KnockbackHighGetUpFrame: 44
+  KnockbackHighUseHeight: 1
+  ExtraRunAnimation: 0
+  ExtraWalkAnimation: 0
+  WalkStartFrame: 0
+  Hp:
+    BasicMaxHp: 90
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs: []
+  IsBoss: 0
+  DefaultSuperArmor: 0

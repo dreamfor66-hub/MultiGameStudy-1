@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55cbc22082a9474381010f1982641670, type: 3}
+  m_Name: Data_Dungeon_BossRush
+  m_EditorClassIdentifier: 
+  NodeGenData:
+    Row: 2
+    Column: 1
+    NodeCountTable:
+    - Count: 1
+      Chance: 1
+    DupEdgeRemainPercent: 100
+    NodeTypeTable:
+    - NodeType: 31
+      MinRow: 1
+      MaxRow: 1
+      Count: 1
+      CantAppearWithIn: 0
+    - NodeType: 111
+      MinRow: 0
+      MaxRow: 0
+      Count: 1
+      CantAppearWithIn: 0
+  Stages:
+  - NodeType: 1
+    Stages:
+    - SceneName: Stage_Normal_03_A
+      Scene: {fileID: 102900000, guid: 96d303fe761cc114aa16317a9d4ee4ca, type: 3}
+    - SceneName: Stage_Normal_03_B
+      Scene: {fileID: 102900000, guid: 61ad3be010361d84a9d0798bc81dacf7, type: 3}
+    - SceneName: Stage_Normal_06_B
+      Scene: {fileID: 102900000, guid: e9e48102ad9114c4daf9b81d856bb982, type: 3}
+    - SceneName: Stage_Normal_02
+      Scene: {fileID: 102900000, guid: 1fa542e943b1d294192516d616fbb4c9, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 1, y: 1}
+      RandomBuffCountMinMax: {x: 1, y: 1}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  - NodeType: 2
+    Stages:
+    - SceneName: Stage_Normal_03_A
+      Scene: {fileID: 102900000, guid: 96d303fe761cc114aa16317a9d4ee4ca, type: 3}
+    - SceneName: Stage_Normal_03_B
+      Scene: {fileID: 102900000, guid: 61ad3be010361d84a9d0798bc81dacf7, type: 3}
+    - SceneName: Stage_Normal_06_B
+      Scene: {fileID: 102900000, guid: e9e48102ad9114c4daf9b81d856bb982, type: 3}
+    - SceneName: Stage_Normal_02
+      Scene: {fileID: 102900000, guid: 1fa542e943b1d294192516d616fbb4c9, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 1, y: 1}
+      RandomBuffCountMinMax: {x: 1, y: 1}
+      EliteFixedBuffs:
+      - {fileID: 11400000, guid: ebe3432e187b55b4da9926e5913f397b, type: 2}
+      - {fileID: 11400000, guid: 64f1943cb18e7e948861ce494ca76cc1, type: 2}
+      EliteRandomBuffs:
+      - {fileID: 11400000, guid: 7253d1f25aafdff44b44befd7e06ce64, type: 2}
+  - NodeType: 3
+    Stages:
+    - SceneName: Stage_Normal_01_A
+      Scene: {fileID: 102900000, guid: d4d4990b453e8e541ae32b901ba7aee9, type: 3}
+    - SceneName: Stage_Normal_03_A
+      Scene: {fileID: 102900000, guid: 96d303fe761cc114aa16317a9d4ee4ca, type: 3}
+    - SceneName: Stage_Normal_03_B
+      Scene: {fileID: 102900000, guid: 61ad3be010361d84a9d0798bc81dacf7, type: 3}
+    - SceneName: Stage_Normal_06_B
+      Scene: {fileID: 102900000, guid: e9e48102ad9114c4daf9b81d856bb982, type: 3}
+    - SceneName: Stage_Normal_02
+      Scene: {fileID: 102900000, guid: 1fa542e943b1d294192516d616fbb4c9, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 1, y: 1}
+      RandomBuffCountMinMax: {x: 1, y: 1}
+      EliteFixedBuffs:
+      - {fileID: 11400000, guid: 228a0fc6ef0fa7b4381acbc494838dac, type: 2}
+      - {fileID: 11400000, guid: db58222000d8e4640985a534960f928d, type: 2}
+      EliteRandomBuffs:
+      - {fileID: 11400000, guid: 7253d1f25aafdff44b44befd7e06ce64, type: 2}
+  - NodeType: 11
+    Stages:
+    - SceneName: Stage_Normal_01_A
+      Scene: {fileID: 102900000, guid: d4d4990b453e8e541ae32b901ba7aee9, type: 3}
+    - SceneName: Stage_Normal_03_A
+      Scene: {fileID: 102900000, guid: 96d303fe761cc114aa16317a9d4ee4ca, type: 3}
+    - SceneName: Stage_Normal_03_B
+      Scene: {fileID: 102900000, guid: 61ad3be010361d84a9d0798bc81dacf7, type: 3}
+    - SceneName: Stage_Normal_06_B
+      Scene: {fileID: 102900000, guid: e9e48102ad9114c4daf9b81d856bb982, type: 3}
+    - SceneName: Stage_Normal_02
+      Scene: {fileID: 102900000, guid: 1fa542e943b1d294192516d616fbb4c9, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 0, y: 0}
+      RandomBuffCountMinMax: {x: 0, y: 0}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  - NodeType: 21
+    Stages:
+    - SceneName: Stage_Boss_A_Crab
+      Scene: {fileID: 102900000, guid: c0209a0130b2c9c4eb74862faa897b69, type: 3}
+    - SceneName: Stage_Boss_B_Turtle
+      Scene: {fileID: 102900000, guid: 8b52ee129fac5e14eb3a4a219517b75a, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 0, y: 0}
+      RandomBuffCountMinMax: {x: 0, y: 0}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  - NodeType: 31
+    Stages:
+    - SceneName: Stage_Boss_A_Gorilla
+      Scene: {fileID: 102900000, guid: 168c08641c3e6f243b8d621ba5951d6b, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 0, y: 0}
+      RandomBuffCountMinMax: {x: 0, y: 0}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  - NodeType: 101
+    Stages:
+    - SceneName: Stage_Recovery
+      Scene: {fileID: 102900000, guid: 17c72f14c715bf94d80ab31a7f9a0b5a, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 0, y: 0}
+      RandomBuffCountMinMax: {x: 0, y: 0}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  - NodeType: 111
+    Stages:
+    - SceneName: Stage_FreeShop
+      Scene: {fileID: 102900000, guid: cd0c887c1765ad6498b12f6dfbe20ff9, type: 3}
+    EliteData:
+      EliteCountMinMax: {x: 0, y: 0}
+      RandomBuffCountMinMax: {x: 0, y: 0}
+      EliteFixedBuffs: []
+      EliteRandomBuffs: []
+  Values:
+  - AttackPercent: 0
+    HpPercent: 0
+  - AttackPercent: 0
+    HpPercent: 0
+  - AttackPercent: 0
+    HpPercent: 0
+  - AttackPercent: 8
+    HpPercent: 8
+  - AttackPercent: 8
+    HpPercent: 8
+  - AttackPercent: 8
+    HpPercent: 8
+  - AttackPercent: 16
+    HpPercent: 16
+  - AttackPercent: 16
+    HpPercent: 16
+  - AttackPercent: 16
+    HpPercent: 16

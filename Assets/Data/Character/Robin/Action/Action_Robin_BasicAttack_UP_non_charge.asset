@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_BasicAttack_UP_non_charge
+  m_EditorClassIdentifier: 
+  ActionKey: BasicAttack_UP_non_charge
+  TotalFrame: 55
+  AnimationOriginalFrame: 44
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.7669986
+      outSlope: 0.7669986
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.04260721
+    - serializedVersion: 3
+      time: 55.11328
+      value: 44
+      inSlope: 0.88214564
+      outSlope: 0.88214564
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.032841682
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 12
+    BulletPrefab2: {fileID: 2130990159804432004, guid: a63fac427fc62dc4fb8ec8f7a7ab251a, type: 3}
+    Speed: 60
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 1.5, z: 0.3}
+    Angle: 0
+    AngleY: 0
+  VfxData: []
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 41
+  CustomStates:
+  - Key: Rollable
+    StartFrame: 25
+    EndFrame: 55
+  AttackType: 1
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsAttack: 1

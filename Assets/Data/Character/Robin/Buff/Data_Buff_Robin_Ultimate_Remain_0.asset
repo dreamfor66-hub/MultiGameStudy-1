@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_Robin_Ultimate_Remain_0
+  m_EditorClassIdentifier: 
+  Tags: 76270000
+  Buffs:
+  - Conditions: []
+    SimpleEffects:
+    - ValueType: 41
+      Value: 25
+      StackType: 0
+      CurveType: 0
+      Curve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+    TriggerActiveEffects: []
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 0
+    MaxStackCount: 0
+    Level: 0
+    Tag: 0
+  VfxData:
+    Enabled: 0
+    Vfxs: []
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialData: {fileID: 0}

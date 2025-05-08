@@ -1,0 +1,213 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Peter2_Special_Charge
+  m_EditorClassIdentifier: 
+  ActionKey: Special_Charge
+  TotalFrame: 105
+  AnimationOriginalFrame: 46
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 35.250492
+      value: 46.000004
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 74
+      value: 74
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 105.02585
+      value: 73.999985
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: -2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.083333336
+      value: -0.16666667
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16666667
+      value: -0.33333334
+      inSlope: -2
+      outSlope: -1.5
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.2
+      value: -0.38333333
+      inSlope: -1.5
+      outSlope: -2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.23333333
+      value: -0.45
+      inSlope: -2
+      outSlope: -2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.26666668
+      value: -0.51666665
+      inSlope: -2
+      outSlope: -3
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.28333333
+      value: -0.5666666
+      inSlope: -3
+      outSlope: -1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.31666666
+      value: -0.5999999
+      inSlope: -1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 8650779274858179600, guid: 860c5e4d3f3b65e4f9a994523c72502b, type: 3}
+    Position: {x: 0, y: 0, z: -0.15200001}
+    Rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+    Scale: {x: 1.2, y: 1.22, z: 1.2}
+    StartFrame: 12
+  - Prefab: {fileID: 8650779274858179600, guid: 860c5e4d3f3b65e4f9a994523c72502b, type: 3}
+    Position: {x: 0, y: 0, z: -0.15200001}
+    Rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+    Scale: {x: 1.2, y: 1.22, z: 1.2}
+    StartFrame: 47
+  - Prefab: {fileID: 2974908259869185526, guid: 92b258f5d8e34f643b681d7d4a1bd62a, type: 3}
+    Position: {x: 0, y: 0.61, z: 0}
+    Rotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
+    Scale: {x: 1.2, y: 1.22, z: 1.2}
+    StartFrame: 81
+  - Prefab: {fileID: 4181763144117961566, guid: fe5a46bb532fd6c4aa3a28619e9da63d, type: 3}
+    Position: {x: 0, y: 1.2932, z: -0}
+    Rotation: {x: -0.7071068, y: -0, z: -0, w: 0.7071068}
+    Scale: {x: 1.2, y: 1.22, z: 1.2}
+    StartFrame: 85
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 0f70cbc217e2ec34c97c0edb40afbe56, type: 2}
+  - Frame: 35
+    Buff: {fileID: 11400000, guid: 16e38a53b65a46a479d7872bc8f520b8, type: 2}
+  - Frame: 85
+    Buff: {fileID: 11400000, guid: c32a666a465e7054e947c1898db400ab, type: 2}
+  ExitableFrame: 105
+  CustomStates:
+  - Key: special_charge_1_attack
+    StartFrame: 30
+    EndFrame: 58
+  - Key: special_charge_2_attack
+    StartFrame: 58
+    EndFrame: 85
+  - Key: special_charge_3_attack
+    StartFrame: 85
+    EndFrame: 99
+  - Key: special_charge_loop
+    StartFrame: 99
+    EndFrame: 105
+  AttackType: 2
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 120
+  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMinAngle: 2
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

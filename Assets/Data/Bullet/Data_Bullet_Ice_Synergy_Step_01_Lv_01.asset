@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Ice_Synergy_Step_01_Lv_01
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 180
+    DespawnBy: 
+  Attack:
+    Enabled: 0
+    Attacks: []
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 1
+    Bullets:
+    - ConditionType: 0
+      ConditionFrame: 0
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 30
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 60
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 90
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 120
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 150
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+    - ConditionType: 0
+      ConditionFrame: 180
+      ConditionEvent: 0
+      Prefab: {fileID: 7862152414454497945, guid: bde6d56ea6422b64eb975a6935685c56, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0

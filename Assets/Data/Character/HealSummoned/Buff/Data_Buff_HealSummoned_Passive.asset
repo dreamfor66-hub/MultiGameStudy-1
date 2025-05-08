@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_HealSummoned_Passive
+  m_EditorClassIdentifier: 
+  Tags: 04000000854e0000
+  Buffs:
+  - Conditions: []
+    SimpleEffects: []
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 40
+        AttackType: 65535
+        Tag: 0
+        Value: 0
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65533
+        MaxRange: 0
+        MaxNumber: 0
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 1
+        Buff: {fileID: 11400000, guid: 845b6bfdd8a20c44a85fbc2ea15c474e, type: 2}
+        Action: {fileID: 0}
+        Bullets:
+        - Frame: 0
+          Angle: 0
+          AngleY: 0
+          Speed: 0
+          RotationSpeed: 0
+          Position: {x: 0, y: 0, z: 0}
+          PositionRandomMin: {x: 0, y: 0, z: 0}
+          PositionRandomMax: {x: 0, y: 0, z: 0}
+          ActionType: 0
+          BulletPrefab2: {fileID: -651347317108410971, guid: d00c29a9db073b748a094d502b5f078e, type: 3}
+        Monsters: []
+        StatusType: 0
+        Tag: 0
+        DamageType: 0
+        Value: 10
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects:
+    - Situation: 0
+      Filters:
+      - Type: 110
+      Override:
+        Type: 0
+        Curve:
+          serializedVersion: 2
+          m_Curve: []
+          m_PreInfinity: 2
+          m_PostInfinity: 2
+          m_RotationOrder: 4
+        Value: 560
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 3
+    MaxStackCount: 0
+    Level: 0
+    Tag: 0
+  VfxData:
+    Enabled: 0
+    Vfxs: []
+  IconData:
+    IsVisible: 0
+    Icon: {fileID: 0}
+  MaterialDataLegacy: {fileID: 0}

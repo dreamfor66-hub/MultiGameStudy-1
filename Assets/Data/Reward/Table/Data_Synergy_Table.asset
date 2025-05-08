@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6c85f1cf56884f9085a3791848550137, type: 3}
+  m_Name: Data_Synergy_Table
+  m_EditorClassIdentifier: 
+  Synergies:
+  - Sprite: {fileID: 21300000, guid: 94d201d062f58e84598858e2df735bc1, type: 3}
+    Name: "\uCC3D"
+    Tag: 3
+    Rewards:
+    - NeedCount: 3
+      Buff: {fileID: 11400000, guid: 58fc90a583c46434d8746f7190c36fe2, type: 2}
+      Description: "\uBAA8\uB4E0 \uACF5\uACA9\uC774 \uCCB4\uB825\uC774 90% \uC774\uC0C1\uC778
+        \uB300\uC0C1\uC5D0\uAC8C 45% \uCD94\uAC00 \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4."
+    - NeedCount: 5
+      Buff: {fileID: 11400000, guid: ea693ddac3daae341ae5db77b54e1d5a, type: 2}
+      Description: "\uBAA8\uB4E0 \uACF5\uACA9\uC774 \uCCB4\uB825\uC774 90% \uC774\uC0C1\uC778
+        \uB300\uC0C1\uC5D0\uAC8C 60% \uCD94\uAC00 \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4."
+  - Sprite: {fileID: 21300000, guid: c8ebb0f8d60f81345a003d09ffebb439, type: 3}
+    Name: "\uD68C\uBCF5"
+    Tag: 4
+    Rewards:
+    - NeedCount: 2
+      Buff: {fileID: 11400000, guid: 4928513b249ba4541bd02d85d2e2604f, type: 2}
+      Description: "\uC2A4\uD14C\uC774\uC9C0\uB97C \uD074\uB9AC\uC5B4\uD560 \uB54C
+        \uB9C8\uB2E4 \uCCB4\uB825\uC774 4\uC529 \uD68C\uBCF5\uB429\uB2C8\uB2E4."
+    - NeedCount: 4
+      Buff: {fileID: 11400000, guid: daa381073d6c9574fa2e6f0394bdd22e, type: 2}
+      Description: "\uC2A4\uD14C\uC774\uC9C0\uB97C \uD074\uB9AC\uC5B4\uD560 \uB54C
+        \uB9C8\uB2E4 \uCCB4\uB825\uC774 8\uC529 \uD68C\uBCF5\uB429\uB2C8\uB2E4."
+  - Sprite: {fileID: 21300000, guid: 9e2ab31d35928e3498e41079a926fa24, type: 3}
+    Name: "\uBC14\uB78C"
+    Tag: 5
+    Rewards:
+    - NeedCount: 2
+      Buff: {fileID: 11400000, guid: 456f876f3da40b643b0454cee7f9071f, type: 2}
+      Description: "\uACF5\uACA9\uC774 \uC801\uC911\uD560 \uB54C \uB9C8\uB2E4 \uCD94\uAC00\uB85C
+        2 \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4."
+    - NeedCount: 4
+      Buff: {fileID: 11400000, guid: 2420b1777f0359c4c917faf2bf8ff473, type: 2}
+      Description: "\uACF5\uACA9\uC774 \uC801\uC911\uD560 \uB54C \uB9C8\uB2E4 \uCD94\uAC00
+        \uACF5\uACA9\uC73C\uB85C \uD53C\uD574 2\uB97C \uC785\uD799\uB2C8\uB2E4. "
+    - NeedCount: 6
+      Buff: {fileID: 11400000, guid: 22dc180feee63d041a9fd5317a4f0437, type: 2}
+      Description: "\uACF5\uACA9\uC774 \uC801\uC911\uD560 \uB54C \uB9C8\uB2E4 \uCD94\uAC00
+        \uACF5\uACA9\uC73C\uB85C \uD53C\uD574 2\uB97C \uC785\uD799\uB2C8\uB2E4. \uB2E4\uB978
+        \uCD94\uAC00 \uACF5\uACA9\uC5D0\uB3C4 \uC801\uC6A9\uB429\uB2C8\uB2E4."
+  - Sprite: {fileID: 21300000, guid: 74e3f949bb9e5154c9a4d0f2b872944a, type: 3}
+    Name: "\uD761\uD608"
+    Tag: 6
+    Rewards:
+    - NeedCount: 2
+      Buff: {fileID: 11400000, guid: 9f39d6c22e8a2e94d80699bae1829a0d, type: 2}
+      Description: "\uACF5\uACA9\uC774 \uC801\uC911\uD560 \uB54C\uB9C8\uB2E4 \uCCB4\uB825\uC774
+        1 \uD68C\uBCF5\uB429\uB2C8\uB2E4. \uCD94\uAC00 \uACF5\uACA9\uC5D0 \uC801\uC6A9\uB418\uC9C0
+        \uC54A\uC2B5\uB2C8\uB2E4."
+    - NeedCount: 3
+      Buff: {fileID: 11400000, guid: b9d2ef60afacfb046bbcfd384087d8a6, type: 2}
+      Description: "\uBAA8\uB4E0 \uACF5\uACA9\uC774 \uC801\uC911\uD560 \uB54C\uB9C8\uB2E4
+        \uCCB4\uB825\uC774 1 \uD68C\uBCF5\uB429\uB2C8\uB2E4."
+  - Sprite: {fileID: 21300000, guid: 56ca7ea0d7f933c45b9d7ca867873f9e, type: 3}
+    Name: "\uC5ED\uBCD1"
+    Tag: 7
+    Rewards:
+    - NeedCount: 2
+      Buff: {fileID: 11400000, guid: 3078b448584e280478a43bcca6617410, type: 2}
+      Description: "\uACF5\uACA9\uC5D0 \uC801\uC911\uB41C \uC801\uC774 \uC5ED\uBCD1
+        \uD6A8\uACFC\uB97C \uBC1B\uC544, 4\uCD08\uB9C8\uB2E4 10m \uC774\uB0B4 \uAC00\uC7A5
+        \uAC00\uAE4C\uC6B4 \uC801\uC5D0\uAC8C \uC790\uC2E0\uC5D0\uAC8C \uCD95\uC801\uB41C
+        \uC18D\uC131\uC744 1 \uC2A4\uD0DD \uC313\uC2B5\uB2C8\uB2E4. (\uC9C0\uC18D
+        \uC2DC\uAC04 16\uCD08)"
+    - NeedCount: 3
+      Buff: {fileID: 11400000, guid: ed81de5bcd6b155439dd9b1bf4ab6132, type: 2}
+      Description: "\uC5ED\uBCD1 \uD6A8\uACFC\uAC00 10m \uC774\uB0B4 \uBAA8\uB4E0
+        \uC801\uC744 \uB300\uC0C1\uC73C\uB85C \uC0BC\uC2B5\uB2C8\uB2E4."
+    - NeedCount: 5
+      Buff: {fileID: 11400000, guid: e68d0bce5497a2142ad440ffecf7bcce, type: 2}
+      Description: "\uC5ED\uBCD1 \uD6A8\uACFC\uB97C \uBC1B\uC740 \uB300\uC0C1\uC774
+        \uC18D\uC131 \uBC1C\uD604 \uC2DC \uD3ED\uBC1C\uD574 \uBC18\uACBD 10m\uC5D0
+        \uB3D9\uC77C \uC18D\uC131\uC758 \uAD11\uC5ED \uD53C\uD574\uB97C 13 \uC785\uD799\uB2C8\uB2E4.
+        / \uBD80\uC791\uC6A9: \uC18D\uC131 \uBC1C\uD604 2\uCC28 \uD6A8\uACFC\uC758
+        \uC9C0\uC18D \uC2DC\uAC04\uC774 70% \uAC10\uC18C\uD569\uB2C8\uB2E4."
+  - Sprite: {fileID: 21300000, guid: 95b3931db92c327478f68ef87d38a148, type: 3}
+    Name: "\uAC00\uC2DC"
+    Tag: 8
+    Rewards:
+    - NeedCount: 1
+      Buff: {fileID: 11400000, guid: 1a6d512f98646bb46b8f833e0c871f01, type: 2}
+      Description: "\uACF5\uACA9 \uBC1B\uC744 \uB54C\uB9C8\uB2E4 \uB0B4 \uC8FC\uBCC0\uC5D0
+        5\uC758 \uBC18\uC0AC \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4."
+    - NeedCount: 2
+      Buff: {fileID: 11400000, guid: f97d14e98124a0d488b8e33d16c92218, type: 2}
+      Description: "\uACF5\uACA9 \uBC1B\uC744 \uB54C\uB9C8\uB2E4 \uB0B4 \uC8FC\uBCC0\uC5D0
+        8\uC758 \uBC18\uC0AC \uD53C\uD574\uB97C \uC785\uD799\uB2C8\uB2E4."

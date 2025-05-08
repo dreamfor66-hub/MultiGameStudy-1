@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0b3171d09744bfa4188c1c8cdfa03272, type: 3}
+  m_Name: Data_Collider_Peter
+  m_EditorClassIdentifier: 
+  Anchors:
+  - Id: 101
+    Path: Root/Bip001/Bip001 Pelvis/Bip001 Spine/Bip001 Spine1/Bip001 Neck/Bip001
+      R Clavicle/Bip001 R UpperArm/Bip001 R Forearm/Bip001 R Hand/Weapon_Bone001/Sk_Peter_Skin_000_Weapon
+    TransformInfo:
+      LocalPosition: {x: 0.06757601, y: -0.2936621, z: -0.02432214}
+      LocalRotation: {x: 0, y: 0.23344536, z: 0, w: 0.97236997}
+      LocalScale: {x: 1, y: 1, z: 1}
+    Colliders:
+    - ColliderInfo:
+        Type: 0
+        Radius: 0.3
+      TransformInfo:
+        LocalPosition: {x: 0, y: -0.6, z: 0}
+        LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        LocalScale: {x: 1, y: 1, z: 1.0000004}
+    - ColliderInfo:
+        Type: 0
+        Radius: 0.3
+      TransformInfo:
+        LocalPosition: {x: 0, y: -0.05, z: 0}
+        LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        LocalScale: {x: 1, y: 1, z: 1.0000004}
+    - ColliderInfo:
+        Type: 0
+        Radius: 0.3
+      TransformInfo:
+        LocalPosition: {x: 0, y: 0.5, z: 0}
+        LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+        LocalScale: {x: 1, y: 1, z: 1.0000004}

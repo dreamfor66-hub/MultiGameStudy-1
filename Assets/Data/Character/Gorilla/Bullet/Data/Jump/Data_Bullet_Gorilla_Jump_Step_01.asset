@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Gorilla_Jump_Step_01
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 35
+    IsTeamFixed: 0
+    FixedTeam: 0
+    DespawnBy: 
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 0
+    Attacks: []
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 1
+    Bullets:
+    - ConditionType: 1
+      ConditionFrame: 0
+      ConditionEvent: 3
+      Prefab: {fileID: -651347317108410971, guid: 2d6fb38d4f384d844884507bf230886c, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 0

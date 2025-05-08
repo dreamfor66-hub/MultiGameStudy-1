@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Heal_Beam
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 60
+    IsTeamFixed: 0
+    FixedTeam: 0
+    DespawnBy: 
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 0
+      GroupId: 0
+      TeamFilter: 1
+      Condition:
+        Type: 1
+        MinFrame: 0
+        MaxFrame: 15
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: eadd90afa20e4f4438e2e8df732e5c35, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    - AnchorId: 1
+      GroupId: 0
+      TeamFilter: 1
+      Condition:
+        Type: 1
+        MinFrame: 0
+        MaxFrame: 15
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: eadd90afa20e4f4438e2e8df732e5c35, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 1
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 0

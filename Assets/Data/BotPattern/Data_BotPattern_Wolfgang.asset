@@ -1,0 +1,218 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c377b5e97d4e4782e7014c892a7af9, type: 3}
+  m_Name: Data_BotPattern_Wolfgang
+  m_EditorClassIdentifier: 
+  Phases:
+  - CounterChance: 0.3
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 4
+      Action: {fileID: 11400000, guid: e6470ae34d62c4047a631017bc3345ae, type: 2}
+      AttackRange: 5
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 120
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 12
+      Repeat: 2
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 17fe6c9854ad06e439839f32fcf85103, type: 2}
+      AttackRange: 6
+      Repeat: 2
+      WaitFrameMin: 30
+      WaitFrameMax: 45
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 17fe6c9854ad06e439839f32fcf85103, type: 2}
+      AttackRange: 3
+      Repeat: 1
+      WaitFrameMin: 30
+      WaitFrameMax: 50
+      PatternChain: []
+    - Chance: 2
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 12
+      Repeat: 2
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain: []
+    CounterActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a82f582a3fe1dd646b1a309b414415c2, type: 2}
+      AttackRange: 4
+      Repeat: 1
+      WaitFrameMin: 20
+      WaitFrameMax: 40
+      PatternChain: []
+    PhaseActions: []
+    NextCondition:
+      HpLessThan: 0.7
+  - CounterChance: 0.3
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 4
+      Action: {fileID: 11400000, guid: e6470ae34d62c4047a631017bc3345ae, type: 2}
+      AttackRange: 5
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 120
+      PatternChain: []
+    - Chance: 2
+      Action: {fileID: 11400000, guid: 17fe6c9854ad06e439839f32fcf85103, type: 2}
+      AttackRange: 6
+      Repeat: 1
+      WaitFrameMin: 25
+      WaitFrameMax: 30
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 17fe6c9854ad06e439839f32fcf85103, type: 2}
+      AttackRange: 6
+      Repeat: 3
+      WaitFrameMin: 45
+      WaitFrameMax: 90
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 12
+      Repeat: 1
+      WaitFrameMin: 45
+      WaitFrameMax: 90
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 12
+      Repeat: 3
+      WaitFrameMin: 45
+      WaitFrameMax: 90
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: b42a81633e71d2645b0f99d682411bb3, type: 2}
+      AttackRange: 30
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain: []
+    CounterActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a82f582a3fe1dd646b1a309b414415c2, type: 2}
+      AttackRange: 4
+      Repeat: 1
+      WaitFrameMin: 20
+      WaitFrameMax: 40
+      PatternChain: []
+    PhaseActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: b42a81633e71d2645b0f99d682411bb3, type: 2}
+      AttackRange: 30
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain: []
+    NextCondition:
+      HpLessThan: 0.4
+  - CounterChance: 0
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 5
+      Action: {fileID: 11400000, guid: e6470ae34d62c4047a631017bc3345ae, type: 2}
+      AttackRange: 5
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 120
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a8a6d9eeefbef384faa0fb82c81a61a9, type: 2}
+      AttackRange: 6
+      Repeat: 1
+      WaitFrameMin: 20
+      WaitFrameMax: 25
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a8a6d9eeefbef384faa0fb82c81a61a9, type: 2}
+      AttackRange: 6
+      Repeat: 3
+      WaitFrameMin: 40
+      WaitFrameMax: 60
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 12
+      Repeat: 1
+      WaitFrameMin: 40
+      WaitFrameMax: 60
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+      AttackRange: 3
+      Repeat: 3
+      WaitFrameMin: 40
+      WaitFrameMax: 60
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: b51e717eb4e8e36449c1aac29f20545d, type: 2}
+      AttackRange: 30
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 90
+      PatternChain:
+      - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+    - Chance: 1
+      Action: {fileID: 11400000, guid: b51e717eb4e8e36449c1aac29f20545d, type: 2}
+      AttackRange: 30
+      Repeat: 1
+      WaitFrameMin: 60
+      WaitFrameMax: 120
+      PatternChain:
+      - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+      - {fileID: 11400000, guid: 7a95ea30c6631a64b84369999c22ee85, type: 2}
+      - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+      - {fileID: 11400000, guid: 7a95ea30c6631a64b84369999c22ee85, type: 2}
+      - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+    CounterActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a82f582a3fe1dd646b1a309b414415c2, type: 2}
+      AttackRange: 4
+      Repeat: 1
+      WaitFrameMin: 20
+      WaitFrameMax: 40
+      PatternChain: []
+    PhaseActions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: b51e717eb4e8e36449c1aac29f20545d, type: 2}
+      AttackRange: 30
+      Repeat: 1
+      WaitFrameMin: 90
+      WaitFrameMax: 90
+      PatternChain:
+      - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+    NextCondition:
+      HpLessThan: 0.15
+  - CounterChance: 0
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: a8a6d9eeefbef384faa0fb82c81a61a9, type: 2}
+      AttackRange: 20
+      Repeat: 5
+      WaitFrameMin: 60
+      WaitFrameMax: 60
+      PatternChain: []
+    CounterActions: []
+    PhaseActions: []
+    NextCondition:
+      HpLessThan: 0

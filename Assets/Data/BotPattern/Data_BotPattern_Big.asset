@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29c377b5e97d4e4782e7014c892a7af9, type: 3}
+  m_Name: Data_BotPattern_Big
+  m_EditorClassIdentifier: 
+  Phases:
+  - CounterChance: 0
+    CounterCooldownFrame: 0
+    Actions:
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 00cd00f74a3eaaa4aac10696ff10c9b9, type: 2}
+      AttackRange: 6
+      Repeat: 1
+      WaitFrameMin: 120
+      WaitFrameMax: 120
+      PatternChain: []
+    - Chance: 1
+      Action: {fileID: 11400000, guid: 6174b3c6efa0130489df65267d3e18b4, type: 2}
+      AttackRange: 20
+      Repeat: 1
+      WaitFrameMin: 120
+      WaitFrameMax: 120
+      PatternChain: []
+    CounterActions: []
+    PhaseActions: []
+    NextCondition:
+      HpLessThan: 0

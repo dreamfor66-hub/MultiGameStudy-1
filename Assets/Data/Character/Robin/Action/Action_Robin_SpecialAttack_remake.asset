@@ -1,0 +1,184 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_SpecialAttack_remake
+  m_EditorClassIdentifier: 
+  ActionKey: SpecialAttack_remake
+  TotalFrame: 30
+  AnimationOriginalFrame: 330
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 32
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 5.307701
+      value: 78.69737
+      inSlope: 0.8067285
+      outSlope: 0.8067285
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 7.9885483
+      value: 127.17072
+      inSlope: 2.4284818
+      outSlope: 2.4284818
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.04980971
+    - serializedVersion: 3
+      time: 30
+      value: 174
+      inSlope: 2.8829465
+      outSlope: 2.8829465
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.03591788
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 5.1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.033333335
+      value: 0.17
+      inSlope: 5.1
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.083333336
+      value: 0.17
+      inSlope: 0
+      outSlope: -20.7
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.21666667
+      value: -2.59
+      inSlope: -20.7
+      outSlope: -4.2000003
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.31666666
+      value: -3.01
+      inSlope: -4.2000003
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 201
+    ColliderId: 201
+    StartFrame: 5
+    EndFrame: 11
+    Info:
+      Knockback:
+        Strength: 1
+        Distance: 5
+        KnockStopFrame: 0
+        TypeRatio: 1
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: 5bea87136cb0b1c46bbb2458b68bcdf8, type: 2}
+      Damage: 5
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 4502912629598630653, guid: b730638ce506f0a46b28a860eaf73b26, type: 3}
+    Position: {x: -0.05781859, y: 1.1968421, z: 0.86999995}
+    Rotation: {x: 0, y: -1, z: 0, w: 0.00000028088027}
+    Scale: {x: 4.5, y: 4.5, z: 3.5}
+    StartFrame: 2
+  - Prefab: {fileID: 4842081623341850777, guid: e1b9ed4b5aa832c4eb70d5bc415f4237, type: 3}
+    Position: {x: -0.28, y: 1.52, z: 1.9}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    Scale: {x: 2, y: 2, z: 1.5}
+    StartFrame: 5
+  - Prefab: {fileID: 7271334386397044631, guid: 9bd8935e9a4be9e4fb7b767c3c9eb1a1, type: 3}
+    Position: {x: 0, y: 1.59, z: 4.0699997}
+    Rotation: {x: 0, y: 0, z: 0, w: 1}
+    Scale: {x: 1.5, y: 1.5, z: 0.8}
+    StartFrame: 9
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 942501e2ff3ec654887be244de5304c3, type: 2}
+  ExitableFrame: 39
+  CustomStates:
+  - Key: Evadable
+    StartFrame: 25
+    EndFrame: 39
+  - Key: Rollable
+    StartFrame: 25
+    EndFrame: 39
+  - Key: Attackable
+    StartFrame: 25
+    EndFrame: 39
+  AttackType: 2
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 1
+  IsBackStep: 0
+  IsAttack: 0

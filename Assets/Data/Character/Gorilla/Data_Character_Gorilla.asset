@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Gorilla
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 360
+  Speed: 8
+  WalkSpeed: 3
+  AppearAction: {fileID: 11400000, guid: 7087bea40e66da84b9645f57be30b7f7, type: 2}
+  CommandToActions: []
+  PossibleActions:
+  - {fileID: 11400000, guid: 5d36bdb23c2c39c4aa9c54f54fd09259, type: 2}
+  - {fileID: 11400000, guid: e5c167bb7e0464e4b9b4a455360c9d5b, type: 2}
+  - {fileID: 11400000, guid: 4b3d49bac3f93f84a84fde6b36140fc9, type: 2}
+  - {fileID: 11400000, guid: c37879776a2c5494390f259ae3e97a43, type: 2}
+  - {fileID: 11400000, guid: 7aa1259659350c041bead92738a2475b, type: 2}
+  - {fileID: 11400000, guid: 61e5e16f61d0453469752862121b3052, type: 2}
+  - {fileID: 11400000, guid: a71096be4e4e5a14fa0cdcdefedb404b, type: 2}
+  - {fileID: 11400000, guid: 75e9eaa06e77c8b478d361af407c4d38, type: 2}
+  - {fileID: 11400000, guid: c8ab24a103834ca48942d20bee853947, type: 2}
+  - {fileID: 11400000, guid: b53b84971719ca24d8aa34f1b2d9ebc9, type: 2}
+  - {fileID: 11400000, guid: 6c6a3b63d0a9e514e8496fecdaa2223b, type: 2}
+  - {fileID: 11400000, guid: 5c096ebaa039695449af8f82cfcfcbfc, type: 2}
+  - {fileID: 11400000, guid: 7979539ee25166f44b8fb960716f90f4, type: 2}
+  - {fileID: 11400000, guid: 3c4ab61a703d4b3478adc92a82b41a88, type: 2}
+  - {fileID: 11400000, guid: 318ad1706ed0b244d9ed02e35de3f857, type: 2}
+  - {fileID: 11400000, guid: cfc92602f9461ef4daa1864ce413c112, type: 2}
+  - {fileID: 11400000, guid: f8fd6e56e6547424089bd02c11fb1a69, type: 2}
+  - {fileID: 11400000, guid: ee0199bc67ca1af4b85db577c7b28c25, type: 2}
+  - {fileID: 11400000, guid: 0907865404ab348429f9b72855d5f367, type: 2}
+  - {fileID: 11400000, guid: 7087bea40e66da84b9645f57be30b7f7, type: 2}
+  KnockbackMidGetUpFrame: 0
+  KnockbackMidUseHeight: 0
+  KnockbackHighGetUpFrame: 0
+  KnockbackHighUseHeight: 0
+  ExtraRunAnimation: 0
+  ExtraWalkAnimation: 1
+  WalkStartFrame: 45
+  WalkRotateSpeed: 360
+  Hp:
+    BasicMaxHp: 2400
+    ImmuneInstantDeath: 1
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs:
+    - {fileID: 11400000, guid: c560edbf2c1c82242855d4cd1b07feff, type: 2}
+  IsBoss: 1
+  DefaultSuperArmor: 1

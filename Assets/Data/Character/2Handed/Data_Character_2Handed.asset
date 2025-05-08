@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_2Handed
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 1080
+  Speed: 6
+  WalkSpeed: 2
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 773387f236307cd4487b628bcab02755, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 7d723a54ff966db4f81a6ec2c6c05fc9, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: 773387f236307cd4487b628bcab02755, type: 2}
+  - {fileID: 11400000, guid: 7d723a54ff966db4f81a6ec2c6c05fc9, type: 2}
+  KnockbackMidGetUpFrame: 0
+  KnockbackMidUseHeight: 0
+  KnockbackHighGetUpFrame: 0
+  KnockbackHighUseHeight: 0
+  ExtraRunAnimation: 0
+  ExtraWalkAnimation: 0
+  WalkStartFrame: 0
+  WalkRotateSpeed: 60
+  Hp:
+    BasicMaxHp: 150
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs: []
+  IsBoss: 0
+  DefaultSuperArmor: 0

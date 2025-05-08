@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Gorilla_Box_2
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 2400
+    IsTeamFixed: 1
+    FixedTeam: 1
+    DespawnBy: 01000000
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 0
+    Attacks: []
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 1

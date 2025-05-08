@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Archer
+  m_EditorClassIdentifier: 
+  AccTime: 0.05
+  RotateSpeed: 1080
+  Speed: 8
+  WalkSpeed: 2
+  AppearAction: {fileID: 0}
+  CommandToActions:
+  - StateKey: LightCombo01
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: b2e3cc68d2869c84790ebd401868d09a, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 5
+    Action: {fileID: 11400000, guid: 8cdf2b1a67bcf4f468591777bc261eb3, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 6
+    Action: {fileID: 11400000, guid: f029ec37bd29e7342ab3c2882f90669e, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 7
+    Action: {fileID: 11400000, guid: c62f2139c37a869459b4cd3a1d7a1c5e, type: 2}
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: 8a580a43bc11b7643ac1cabe46bc58df, type: 2}
+  - StateKey: SpecialCombo01
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 2
+    Action: {fileID: 11400000, guid: e0a19ee82a2253d4480380352240792b, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: 571590e827b92bb4a861cef9fc3843bf, type: 2}
+  - {fileID: 11400000, guid: b3c04c529f821df41bcc4406be1f43c3, type: 2}
+  - {fileID: 11400000, guid: ff05f861bcc41a64e93283511c441528, type: 2}
+  - {fileID: 11400000, guid: b2e3cc68d2869c84790ebd401868d09a, type: 2}
+  - {fileID: 11400000, guid: e0a19ee82a2253d4480380352240792b, type: 2}
+  - {fileID: 11400000, guid: e5dc6893de4c8e04c8c0168bcb4676aa, type: 2}
+  - {fileID: 11400000, guid: 8a580a43bc11b7643ac1cabe46bc58df, type: 2}
+  - {fileID: 11400000, guid: 8cdf2b1a67bcf4f468591777bc261eb3, type: 2}
+  - {fileID: 11400000, guid: f029ec37bd29e7342ab3c2882f90669e, type: 2}
+  - {fileID: 11400000, guid: c62f2139c37a869459b4cd3a1d7a1c5e, type: 2}
+  KnockbackMidGetUpFrame: 40
+  KnockbackMidUseHeight: 0
+  KnockbackHighGetUpFrame: 40
+  KnockbackHighUseHeight: 0
+  ExtraRunAnimation: 0
+  ExtraWalkAnimation: 0
+  WalkStartFrame: 0
+  WalkRotateSpeed: 60
+  Hp:
+    BasicMaxHp: 80
+    ImmuneInstantDeath: 0
+  Stamina:
+    BasicMaxStamina: 2
+    ChargingFramePerStamina: 180
+  Stack:
+    BasicMaxStack: 0
+    InitStack: 0
+  Buff:
+    StartBuffs: []
+  IsBoss: 0
+  DefaultSuperArmor: 0

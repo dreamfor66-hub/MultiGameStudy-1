@@ -1,0 +1,290 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Peter2_Basic_Attack4
+  m_EditorClassIdentifier: 
+  ActionKey: Basic_Attack4
+  TotalFrame: 65
+  AnimationOriginalFrame: 82
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.9374208
+      outSlope: 0.9374208
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.14051647
+    - serializedVersion: 3
+      time: 11.619135
+      value: 19.884308
+      inSlope: 2.621451
+      outSlope: 0.70149213
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.06728101
+      outWeight: 1
+    - serializedVersion: 3
+      time: 19.488277
+      value: 25.40445
+      inSlope: 1.409513
+      outSlope: 0.70957255
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 24.564478
+      value: 29.006382
+      inSlope: 0.70957255
+      outSlope: 2.1480832
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 28.416035
+      value: 37.279846
+      inSlope: 1.8539209
+      outSlope: 1.8539209
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.057054166
+    - serializedVersion: 3
+      time: 30.553467
+      value: 41.693115
+      inSlope: 1.7188088
+      outSlope: 0.3139831
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 44.27623
+      value: 46.00183
+      inSlope: 0.3139831
+      outSlope: 1.5609779
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 65.07391
+      value: 75.43024
+      inSlope: 0.7667731
+      outSlope: 0.7667731
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.09707268
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.06666667
+      value: 0
+      inSlope: 0
+      outSlope: 10
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.15
+      value: 0.8333334
+      inSlope: 10
+      outSlope: 20
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.16666666
+      value: 1.1666665
+      inSlope: 20
+      outSlope: 20
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: 2.4166665
+      inSlope: 10
+      outSlope: 10
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.41666666
+      value: 4.083333
+      inSlope: 10
+      outSlope: 15
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.46666667
+      value: 4.833333
+      inSlope: 15
+      outSlope: 7
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6333333
+      value: 5.9999995
+      inSlope: 7
+      outSlope: 7
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.7
+      value: 6.233333
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.16666667
+      value: 0
+      inSlope: 0
+      outSlope: 19.2
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.25
+      value: 1.6
+      inSlope: 19.2
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.41666666
+      value: 1.6
+      inSlope: 0
+      outSlope: -31.999992
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.46666667
+      value: 0
+      inSlope: -31.999992
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 104
+    ColliderId: 104
+    StartFrame: 20
+    EndFrame: 36
+    Info:
+      Knockback:
+        Strength: 2
+        Distance: 7
+        KnockStopFrame: 5
+        TypeRatio: 1
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: 7c9433e45c26c67409d92cbd501e767c, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  - GroupId: 104
+    ColliderId: 100
+    StartFrame: 25
+    EndFrame: 36
+    Info:
+      Knockback:
+        Strength: 2
+        Distance: 7
+        KnockStopFrame: 5
+        TypeRatio: 1
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: 7c9433e45c26c67409d92cbd501e767c, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 8874923867043175974, guid: 85c807e86c3ce9b47a44b94e1e762342, type: 3}
+    Position: {x: 0.90000004, y: 1.586, z: -0.036000002}
+    Rotation: {x: -0.44577423, y: 0.6175658, z: -0.44750687, w: -0.46865287}
+    Scale: {x: 1.44, y: 1.4640001, z: 1.2}
+    StartFrame: 20
+  - Prefab: {fileID: 4842081623341850777, guid: e1b9ed4b5aa832c4eb70d5bc415f4237, type: 3}
+    Position: {x: -0.09, y: 0.18, z: 2.8345737}
+    Rotation: {x: 0.7071068, y: 0, z: 0, w: 0.7071068}
+    Scale: {x: 3, y: 3, z: 0.2}
+    StartFrame: 24
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 2e18e5e135d4b7340887188376ef462d, type: 2}
+  ExitableFrame: 56
+  CustomStates:
+  - Key: Evadable
+    StartFrame: 40
+    EndFrame: 47
+  AttackType: 1
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 120
+  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMinAngle: 2
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 1

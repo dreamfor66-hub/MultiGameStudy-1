@@ -1,0 +1,101 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_SpecialAttack
+  m_EditorClassIdentifier: 
+  ActionKey: SpecialAttack
+  TotalFrame: 35
+  AnimationOriginalFrame: 34
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.108962804
+      outSlope: 0.108962804
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.18100893
+    - serializedVersion: 3
+      time: 10.845898
+      value: 7.529828
+      inSlope: 0.41871944
+      outSlope: 0.41871944
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 35
+      value: 34.000004
+      inSlope: 1.2109463
+      outSlope: 1.2109463
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.05637966
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 0
+    FixedDirMoveSpeed: 10
+    FollowTargetSpeed: 10
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 10
+    BulletPrefab2: {fileID: 2130990159804432004, guid: 88590e3550329f347a30f6e43710a6f3, type: 3}
+    Speed: 45
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0.3, y: 1, z: 0.5}
+    Angle: 0
+    AngleY: 7.5
+  VfxData: []
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 22
+  CustomStates: []
+  AttackType: 2
+  EnableAutoCorrection: 1
+  AutoCorrectionMaxDistance: 8
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 150
+  CanBeInHurt: 0
+  IsAttack: 1

@@ -1,0 +1,84 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78fb49529275994419c9ffaf9643bebb, type: 3}
+  m_Name: Data_Buff_Effect_Elements_Fire_Stack
+  m_EditorClassIdentifier: 
+  Tags: 030000006400000065000000
+  Buffs:
+  - Conditions: []
+    SimpleEffects: []
+    TriggerActiveEffects:
+    - TriggerData:
+        TriggerType: 32
+        AttackType: 65535
+        Tag: 101
+        Value: 4
+        EntityType: 65535
+        TriggerOnIndirectHit: 1
+        EveryNTimes: 0
+        RandomValue: 0
+        RandomMax: 0
+        CooldownFrame: 0
+        CooldownStage: 0
+      TargetData:
+        ActiveTargetPivot: 0
+        RangeType: 0
+        TeamType: 2
+        EntityType: 65535
+        MaxRange: 0
+        MaxNumber: 1
+        IncludePivot: 0
+      ActiveDataList:
+      - ActiveType: 15
+        Buff: {fileID: 0}
+        Action: {fileID: 0}
+        Bullets: []
+        Tag: 99999
+        DamageType: 0
+        Value: -4
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+      - ActiveType: 1
+        Buff: {fileID: 11400000, guid: 4a03e2135e4f0154493545ec8d2c15d0, type: 2}
+        Action: {fileID: 0}
+        Bullets: []
+        Tag: 0
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+      - ActiveType: 1
+        Buff: {fileID: 11400000, guid: d6dda1dee01b84d4b9b9cc149071307c, type: 2}
+        Action: {fileID: 0}
+        Bullets: []
+        Tag: 0
+        DamageType: 0
+        Value: 0
+        Frame: 0
+        IsDurationChanged: 0
+        IsStacked: 0
+    OverrideHitEffects: []
+  ReleaseCondition: []
+  OverlapMethod:
+    OverlapType: 2
+    MaxStackCount: 99
+    Level: 0
+    Tag: 0
+  VfxData:
+    Enabled: 0
+    Vfxs: []
+  IconData:
+    IsVisible: 1
+    Icon: {fileID: 21300000, guid: 3637a7ee97fd905479177ee4a9baed01, type: 3}
+  MaterialData: {fileID: 11400000, guid: e380b6aa869c8d1459ff60e56f70de46, type: 2}

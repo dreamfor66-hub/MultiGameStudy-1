@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Robin_SpecialAttack_remake_RE3
+  m_EditorClassIdentifier: 
+  ActionKey: SpecialAttack_remake_RE3
+  TotalFrame: 80
+  AnimationOriginalFrame: 102
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.5179391
+      outSlope: 0.5179391
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.40602025
+    - serializedVersion: 3
+      time: 1.7622166
+      value: 7.752795
+      inSlope: 0.32339558
+      outSlope: 0.32339558
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.4232669
+    - serializedVersion: 3
+      time: 15.750908
+      value: 15.325303
+      inSlope: 0.7384551
+      outSlope: 1.1822975
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.37864667
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 21.725407
+      value: 23.004799
+      inSlope: 1.3595815
+      outSlope: 1.3595815
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.35506132
+      outWeight: 0.4212627
+    - serializedVersion: 3
+      time: 30.879326
+      value: 30.43155
+      inSlope: 1.0860679
+      outSlope: 1.0860679
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.5075717
+      outWeight: 0.08872159
+    - serializedVersion: 3
+      time: 37.87902
+      value: 50.055836
+      inSlope: 1.5550047
+      outSlope: 1.5550047
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 69.9912
+      value: 86.51838
+      inSlope: 1.1046019
+      outSlope: 1.1046019
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.16353378
+      outWeight: 0.34933573
+    - serializedVersion: 3
+      time: 79.961685
+      value: 96.63177
+      inSlope: 0.23195168
+      outSlope: 0.23195168
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.2452045
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.26666668
+      value: 0
+      inSlope: 0
+      outSlope: -50
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.32799307
+      value: -3.0663192
+      inSlope: -50
+      outSlope: -17
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.53333336
+      value: -6.557104
+      inSlope: -17
+      outSlope: -17
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.78333336
+      value: -9.057104
+      inSlope: -3
+      outSlope: -3
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.95889175
+      value: -9.583779
+      inSlope: -3
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0.26666668
+      value: 0
+      inSlope: 0
+      outSlope: 24.459293
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.32799307
+      value: 1.5
+      inSlope: 24.459293
+      outSlope: 3.999999
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.37799308
+      value: 1.7
+      inSlope: 3.999999
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.6
+      value: 1.7
+      inSlope: 0
+      outSlope: -14.559303
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.71676385
+      value: 0
+      inSlope: -14.559303
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 15
+    BulletPrefab2: {fileID: 2633536936568543110, guid: 59fe883e6468a364eba4eaa6f2ca9149, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 1, z: 0.5}
+    RandomPosition:
+      x: 0
+      z: 0
+    Angle: 0
+    AngleYMin: 0
+    AngleYMax: 0
+  VfxData: []
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 97a7b74c281f441439a318a238f07113, type: 2}
+  - Frame: 15
+    Buff: {fileID: 11400000, guid: 462fee7171799464184c247652494497, type: 2}
+  ExitableFrame: 78
+  CustomStates:
+  - Key: SkillAvailable
+    StartFrame: 49
+    EndFrame: 63
+  AttackType: 2
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 2
+  AutoCorrectionMaxAngle: 120
+  AutoCorrectionMinAngle: 40
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

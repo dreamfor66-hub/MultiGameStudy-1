@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cfe9cc179166b64fbcccc1812bfaa97, type: 3}
+  m_Name: Data_Character_Wolfgang
+  m_EditorClassIdentifier: 
+  AccTime: 0.1
+  RotateSpeed: 20000
+  Speed: 8
+  RunAnimFrame: 40
+  AppearAction: {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+  CommandToActions:
+  - StateKey: 
+    FromIdle: 1
+    Command: 2
+    Action: {fileID: 11400000, guid: a82f582a3fe1dd646b1a309b414415c2, type: 2}
+    StackCondition: 0
+  - StateKey: 
+    FromIdle: 1
+    Command: 1
+    Action: {fileID: 11400000, guid: e6470ae34d62c4047a631017bc3345ae, type: 2}
+    StackCondition: 0
+  - StateKey: 
+    FromIdle: 1
+    Command: 3
+    Action: {fileID: 11400000, guid: 29761e502c929994d9f6cf91851fd318, type: 2}
+    StackCondition: 0
+  - StateKey: 
+    FromIdle: 1
+    Command: 4
+    Action: {fileID: 11400000, guid: b42a81633e71d2645b0f99d682411bb3, type: 2}
+    StackCondition: 0
+  PossibleActions:
+  - {fileID: 11400000, guid: b42a81633e71d2645b0f99d682411bb3, type: 2}
+  - {fileID: 11400000, guid: a82f582a3fe1dd646b1a309b414415c2, type: 2}
+  - {fileID: 11400000, guid: 17fe6c9854ad06e439839f32fcf85103, type: 2}
+  - {fileID: 11400000, guid: a8a6d9eeefbef384faa0fb82c81a61a9, type: 2}
+  - {fileID: 11400000, guid: faeac13f748b00941a72c0c5333861d9, type: 2}
+  - {fileID: 11400000, guid: e82da94c4ae0253449e3e533981be034, type: 2}
+  - {fileID: 11400000, guid: e6470ae34d62c4047a631017bc3345ae, type: 2}
+  - {fileID: 11400000, guid: 29761e502c929994d9f6cf91851fd318, type: 2}
+  - {fileID: 11400000, guid: b51e717eb4e8e36449c1aac29f20545d, type: 2}
+  - {fileID: 11400000, guid: 7a95ea30c6631a64b84369999c22ee85, type: 2}
+  - {fileID: 11400000, guid: a7c77aea3d8295347b004fea239a1aa0, type: 2}
+  DetailKnockbacks: []
+  Hp:
+    BasicMaxHp: 500
+    ImmuneInstantDeath: 1
+  Buff:
+    StartBuffs: []
+  IsBoss: 1
+  DefaultSuperArmor: 1

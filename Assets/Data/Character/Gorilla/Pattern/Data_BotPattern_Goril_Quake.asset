@@ -1,0 +1,100 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd1bc4cccc1412f93488ee4fb923e9b, type: 3}
+  m_Name: Data_BotPattern_Goril_Quake
+  m_EditorClassIdentifier: 
+  ProperRange: 10
+  RangeDeltaToChancePlus:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Conditions:
+  - Type: 1
+    BuffTag: 20004
+  Actions:
+  - Action: {fileID: 11400000, guid: 7aa1259659350c041bead92738a2475b, type: 2}
+    TargetType: 0
+    MinRange: 100
+    WaitFrame: 100
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 5d36bdb23c2c39c4aa9c54f54fd09259, type: 2}
+    TargetType: 0
+    MinRange: 100
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 0907865404ab348429f9b72855d5f367, type: 2}
+    TargetType: 0
+    MinRange: 100
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: c8ab24a103834ca48942d20bee853947, type: 2}
+    TargetType: 10
+    MinRange: 25
+    WaitFrame: 0
+    TargetReduceAggro: 200
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: a71096be4e4e5a14fa0cdcdefedb404b, type: 2}
+    TargetType: 11
+    MinRange: 18
+    WaitFrame: 0
+    TargetReduceAggro: 200
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: c8ab24a103834ca48942d20bee853947, type: 2}
+    TargetType: 11
+    MinRange: 25
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 61e5e16f61d0453469752862121b3052, type: 2}
+    TargetType: 10
+    MinRange: 18
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: c8ab24a103834ca48942d20bee853947, type: 2}
+    TargetType: 10
+    MinRange: 25
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 75e9eaa06e77c8b478d361af407c4d38, type: 2}
+    TargetType: 11
+    MinRange: 18
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: cfc92602f9461ef4daa1864ce413c112, type: 2}
+    TargetType: 30
+    MinRange: 3
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: ee0199bc67ca1af4b85db577c7b28c25, type: 2}
+    TargetType: 0
+    MinRange: 3
+    WaitFrame: 150
+    TargetReduceAggro: 0
+    ResetAggroRank: 0

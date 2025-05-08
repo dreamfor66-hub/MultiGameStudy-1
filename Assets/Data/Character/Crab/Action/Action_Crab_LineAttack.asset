@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Crab_LineAttack
+  m_EditorClassIdentifier: 
+  ActionKey: LineAttack
+  TotalFrame: 72
+  AnimationOriginalFrame: 60
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 25.0141
+      value: 24.72979
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 31.780134
+      value: 28.41903
+      inSlope: 1.7877889
+      outSlope: 1.7877889
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 44.999153
+      value: 37.579926
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 49.75639
+      value: 39.347755
+      inSlope: 1.0000002
+      outSlope: 0.0009974621
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 55.095257
+      value: 39.35308
+      inSlope: 0.0009974621
+      outSlope: 1.0000001
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 71.75639
+      value: 61.347755
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 0
+    ColliderId: 101
+    StartFrame: 44
+    EndFrame: 51
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 0
+        Distance: 0
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 0}
+      Damage: 10
+    BuffData: {fileID: 0}
+  - GroupId: 0
+    ColliderId: 102
+    StartFrame: 44
+    EndFrame: 51
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 0
+        Distance: 0
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 0}
+      Damage: 10
+    BuffData: {fileID: 0}
+  - GroupId: 0
+    ColliderId: 51
+    StartFrame: 44
+    EndFrame: 51
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 0
+        Distance: 0
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 11400000, guid: 57e7dc4a29c0ff54da15686287f835e5, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 33
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData:
+  - Frame: 44
+    BulletPrefab2: {fileID: -651347317108410971, guid: d00c29a9db073b748a094d502b5f078e, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 0, z: 4}
+    Angle: 0
+    AngleY: 0
+  - Frame: 54
+    BulletPrefab2: {fileID: -651347317108410971, guid: d00c29a9db073b748a094d502b5f078e, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 0, z: 9}
+    Angle: 0
+    AngleY: 0
+  - Frame: 64
+    BulletPrefab2: {fileID: -651347317108410971, guid: d00c29a9db073b748a094d502b5f078e, type: 3}
+    Speed: 0
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0, y: 0, z: 14}
+    Angle: 0
+    AngleY: 0
+  VfxData:
+  - Prefab: {fileID: 4997582695139193335, guid: 24593f233ed9b694e93e297cb5f35e2c, type: 3}
+    Position: {x: -0.82, y: 0, z: 2.58}
+    Rotation: {x: 0.37304252, y: 0.600699, z: 0.600699, w: 0.37304252}
+    Scale: {x: 2, y: 2, z: 2}
+    StartFrame: 42
+  - Prefab: {fileID: 4997582695139193335, guid: 24593f233ed9b694e93e297cb5f35e2c, type: 3}
+    Position: {x: 0.4, y: 0.22, z: 2.58}
+    Rotation: {x: 0.6263985, y: 0.32806236, z: 0.32806236, w: 0.6263985}
+    Scale: {x: 2, y: 2, z: 2}
+    StartFrame: 42
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 72
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

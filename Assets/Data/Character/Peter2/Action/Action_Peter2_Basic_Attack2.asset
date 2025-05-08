@@ -1,0 +1,183 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Peter2_Basic_Attack2
+  m_EditorClassIdentifier: 
+  ActionKey: Basic_Attack2
+  TotalFrame: 94
+  AnimationOriginalFrame: 60
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 5.0297017
+      value: 6.643726
+      inSlope: 1.0000001
+      outSlope: 1.0000001
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 10.664139
+      value: 8.991425
+      inSlope: 1
+      outSlope: 0.54643553
+      tangentMode: 65
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18
+      value: 13
+      inSlope: 0.54643553
+      outSlope: 1
+      tangentMode: 5
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 32.930595
+      value: 33.29834
+      inSlope: 1.1193197
+      outSlope: 1.1193197
+      tangentMode: 1
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 94
+      value: 94
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 10
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.083333336
+      value: 0.8333334
+      inSlope: 10
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 102
+    ColliderId: 100
+    StartFrame: 3
+    EndFrame: 14
+    Info:
+      Knockback:
+        Strength: 0
+        Distance: 0.7
+        KnockStopFrame: 5
+        TypeRatio: 0
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: cc1576e6bf78da04784f19968998fb42, type: 2}
+      Damage: 3
+    BuffData: {fileID: 0}
+  - GroupId: 102
+    ColliderId: 102
+    StartFrame: 3
+    EndFrame: 14
+    Info:
+      Knockback:
+        Strength: 0
+        Distance: 0.7
+        KnockStopFrame: 5
+        TypeRatio: 0
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: cc1576e6bf78da04784f19968998fb42, type: 2}
+      Damage: 3
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 8874923867043175974, guid: 85c807e86c3ce9b47a44b94e1e762342, type: 3}
+    Position: {x: 0.072000004, y: 1.2932, z: -0.04399996}
+    Rotation: {x: -0.36153874, y: 0.6076921, z: -0.6076921, w: -0.36153874}
+    Scale: {x: 1.2, y: 1.22, z: 1.2}
+    StartFrame: 0
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 0
+    Buff: {fileID: 11400000, guid: 5985e1e05ce15784bba5486dd4c25960, type: 2}
+  ExitableFrame: 52
+  CustomStates:
+  - Key: LightCombo02
+    StartFrame: 14
+    EndFrame: 36
+  - Key: Evadable
+    StartFrame: 36
+    EndFrame: 52
+  - Key: Evadable
+    StartFrame: 7
+    EndFrame: 41
+  AttackType: 1
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 120
+  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMinAngle: 2
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 1

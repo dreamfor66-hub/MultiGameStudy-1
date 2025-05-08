@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Big_Spawn
+  m_EditorClassIdentifier: 
+  ActionKey: Spawn
+  TotalFrame: 120
+  AnimationOriginalFrame: 120
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 120
+      value: 120
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: 24779859180849340, guid: 5ac2999d094da12429911b31bb539029, type: 3}
+    Position: {x: -0.07000271, y: 2.7932339, z: 1.3304409}
+    Rotation: {x: -0.68457663, y: 0.17707387, z: 0.6845757, w: -0.17707625}
+    Scale: {x: 1, y: 1, z: 1}
+    StartFrame: 24
+  StatusData:
+  - Type: 2
+    StartFrame: 0
+    EndFrame: 45
+  MonsterSpawnData:
+  - Frame: 25
+    MonsterPrefab: {fileID: 4630846155715234085, guid: 542c46a6d3049804093eb55b0035fee5, type: 3}
+    PositionType: 1
+    SpawnPoint: {fileID: 0}
+    PosMin:
+      x: -3
+      z: 0
+    PosMax:
+      x: -3
+      z: 0
+    Count: 1
+  - Frame: 25
+    MonsterPrefab: {fileID: 4630846155715234085, guid: 542c46a6d3049804093eb55b0035fee5, type: 3}
+    PositionType: 1
+    SpawnPoint: {fileID: 0}
+    PosMin:
+      x: 3
+      z: 0
+    PosMax:
+      x: 3
+      z: 0
+    Count: 1
+  BuffData: []
+  ExitableFrame: 120
+  CustomStates: []
+  AttackType: 0
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 0

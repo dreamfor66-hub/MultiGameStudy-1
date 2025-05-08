@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: HarvestKingLeaf_001_M_FX
+  m_Shader: {fileID: 4800000, guid: 27dc5aa6c58e265429e5bf1f43d391d9, type: 3}
+  m_ShaderKeywords: ENABLE_ADD _RIMENABLED_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _AddMatcapTex:
+        m_Texture: {fileID: 2800000, guid: 9ca6868bba9c14cd4b2419a8778e0275, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _CloudTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ColorMaskTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DataTex:
+        m_Texture: {fileID: 2800000, guid: 5850f7379ac62ca47aeb10554b71be29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DecalTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DiffuseMatcapTex:
+        m_Texture: {fileID: 2800000, guid: c44ecb391c33f4adf8e9658b3e383a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Lightmap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: c4f501674b66d514c90e13563a357e29, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MatCap:
+        m_Texture: {fileID: 2800000, guid: c44ecb391c33f4adf8e9658b3e383a08, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MulMatcapTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ShadowMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AddAmount: 5
+    - _AddEnabled: 1
+    - _BumpScale: 1
+    - _CubemapBlurAmount: 0
+    - _CubemapBlurSeperate: 0
+    - _CubemapIntensity: 1.29
+    - _Cull: 2
+    - _Cutoff: 0.5
+    - _DecalEnabled: 0
+    - _DetailNormalMapScale: 1
+    - _DiffuseMode: 0
+    - _DstBlend: 0
+    - _ENABLE_CLOUD: 0
+    - _EmissiveEnabled: 0
+    - _EmissiveMultiplier: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0
+    - _GlossyReflections: 1
+    - _Intensity: 1
+    - _LightmapEnable: 0
+    - _Metallic: 0.141
+    - _Mode: 0
+    - _MulAmount: 1
+    - _MulEnabled: 0
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _RimEnabled: 1
+    - _RimGradation: 0.25
+    - _RimIntensity: 0.71
+    - _RimSize: 0.209
+    - _ShadowGradation: 0.5
+    - _Smoothness: 0.87
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SpecularIntensity: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _UseMatcapOnly: 0
+    - _ZWrite: 1
+    m_Colors:
+    - _AdditiveColor: {r: 0, g: 0, b: 0, a: 1}
+    - _CloudProp: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 0.588, g: 0.588, b: 0.588, a: 1}
+    - _ColorMaskB: {r: 0, g: 0, b: 1, a: 1}
+    - _ColorMaskG: {r: 0, g: 1, b: 0, a: 1}
+    - _ColorMaskR: {r: 1, g: 0, b: 0, a: 1}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 0}
+    - _EmissiveColor: {r: 0.7735849, g: 0.09994423, b: 0, a: 1}
+    - _RimColor: {r: 1, g: 0.23113209, b: 0.39474317, a: 1}

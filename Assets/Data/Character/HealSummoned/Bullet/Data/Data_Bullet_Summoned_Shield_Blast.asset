@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Summoned_Shield_Blast
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 360
+    IsTeamFixed: 1
+    FixedTeam: 1
+    DespawnBy: 
+    DespawnDelayFrame: 0
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 0
+      GroupId: 0
+      TeamFilter: 1
+      Condition:
+        Type: 1
+        MinFrame: 15
+        MaxFrame: 120
+        Event: 3
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 1
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: d300cbbb48330ff47823989f377452a8, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 0
+    - AnchorId: 0
+      GroupId: 1
+      TeamFilter: 1
+      Condition:
+        Type: 1
+        MinFrame: 121
+        MaxFrame: 240
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: d300cbbb48330ff47823989f377452a8, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 0
+    - AnchorId: 0
+      GroupId: 2
+      TeamFilter: 1
+      Condition:
+        Type: 1
+        MinFrame: 241
+        MaxFrame: 330
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 0
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 0
+      BuffData: {fileID: 11400000, guid: d300cbbb48330ff47823989f377452a8, type: 2}
+      BuffOnly: 1
+      HitOnce: 0
+      IsDirectHit: 0
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs:
+    - Trigger: 3
+      Prefab: {fileID: 4164172094278922546, guid: 919b99a61e3aa0f478b38aa0288ec146, type: 3}
+      Scale: 1.5
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 0

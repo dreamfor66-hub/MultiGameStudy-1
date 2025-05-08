@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcd1bc4cccc1412f93488ee4fb923e9b, type: 3}
+  m_Name: Data_BotPattern_Goril_Summon_Heal
+  m_EditorClassIdentifier: 
+  ProperRange: 10
+  RangeDeltaToChancePlus:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 136
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  Conditions: []
+  Actions:
+  - Action: {fileID: 11400000, guid: 5c096ebaa039695449af8f82cfcfcbfc, type: 2}
+    TargetType: 10
+    MinRange: 100
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 318ad1706ed0b244d9ed02e35de3f857, type: 2}
+    TargetType: 50
+    MinRange: 100
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: 7979539ee25166f44b8fb960716f90f4, type: 2}
+    TargetType: 0
+    MinRange: 100
+    WaitFrame: 20
+    TargetReduceAggro: 100
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: cfc92602f9461ef4daa1864ce413c112, type: 2}
+    TargetType: 30
+    MinRange: 3
+    WaitFrame: 0
+    TargetReduceAggro: 0
+    ResetAggroRank: 0
+  - Action: {fileID: 11400000, guid: f8fd6e56e6547424089bd02c11fb1a69, type: 2}
+    TargetType: 0
+    MinRange: 1
+    WaitFrame: 60
+    TargetReduceAggro: 0
+    ResetAggroRank: 0

@@ -1,0 +1,130 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Kim_BasicAttack
+  m_EditorClassIdentifier: 
+  ActionKey: BasicAttack
+  TotalFrame: 40
+  AnimationOriginalFrame: 40
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 6
+      value: 11
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 40
+      value: 40
+      inSlope: 1
+      outSlope: 1
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData:
+  - GroupId: 0
+    ColliderId: 51
+    StartFrame: 6
+    EndFrame: 10
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 0
+        Distance: 2
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 11400000, guid: f5a6d4e2b7c10ef4fbdf8dee772594e5, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  - GroupId: 0
+    ColliderId: 101
+    StartFrame: 6
+    EndFrame: 10
+    Info:
+      Knockback:
+        IsJustDamage: 0
+        Strength: 0
+        Distance: 2
+        KnockStopFrame: 0
+        TypeRatio: 0
+      HitFx: {fileID: 11400000, guid: f5a6d4e2b7c10ef4fbdf8dee772594e5, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData:
+  - Prefab: {fileID: -8779393588633324881, guid: 6a16c272fbcea7a40a22fc9add9d4949, type: 3}
+    Position: {x: -0.555, y: 0.9705, z: 0.14653847}
+    Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    Scale: {x: 1.5, y: 1.5, z: 1.5}
+    StartFrame: 0
+  - Prefab: {fileID: 6371473882080405899, guid: aea5d5d987f712c4a9a52bab94fb0416, type: 3}
+    Position: {x: 0, y: 1.4076924, z: 1.05}
+    Rotation: {x: -0, y: -0.7071068, z: -0, w: 0.7071068}
+    Scale: {x: 0.90000004, y: 1.5, z: 1.9499999}
+    StartFrame: 5
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData: []
+  ExitableFrame: 40
+  CustomStates:
+  - Key: Evadable
+    StartFrame: 10
+    EndFrame: 40
+  - Key: Ultimate
+    StartFrame: 10
+    EndFrame: 40
+  AttackType: 1
+  StaminaUse: 0
+  StackUse: 0
+  CanBeInHurt: 0
+  IsAttack: 1

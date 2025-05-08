@@ -1,0 +1,50 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Wind_Passive_Lv_01
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 12
+    DespawnBy: 
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 99
+      GroupId: 0
+      Condition:
+        Type: 0
+        MinFrame: 0
+        MaxFrame: 0
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          IsJustDamage: 1
+          Strength: 15
+          Distance: 0
+          KnockStopFrame: 0
+          TypeRatio: 0
+        HitFx: {fileID: 11400000, guid: 149e48f8659bbd244b82fdd29c0a74f8, type: 2}
+        Damage: 4
+      BuffData: {fileID: 0}
+      BuffOnly: 0
+      HitOnce: 0
+      IsDirectHit: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 0
+    Bullets: []
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0

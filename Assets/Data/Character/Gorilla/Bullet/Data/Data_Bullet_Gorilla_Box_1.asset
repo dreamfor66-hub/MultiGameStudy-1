@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
+  m_Name: Data_Bullet_Gorilla_Box_1
+  m_EditorClassIdentifier: 
+  Common:
+    LifeTimeFrame: 70
+    IsTeamFixed: 1
+    FixedTeam: 1
+    DespawnBy: 
+    DespawnDelayFrame: 30
+  Attack:
+    Enabled: 1
+    Attacks:
+    - AnchorId: 100
+      GroupId: 0
+      TeamFilter: 2
+      Condition:
+        Type: 1
+        MinFrame: 42
+        MaxFrame: 43
+        Event: 0
+      HitboxInfo:
+        Knockback:
+          Strength: 1
+          Distance: 6
+          KnockStopFrame: 0
+          TypeRatio: 1
+          InverseKnockback: 0
+        HitFx: {fileID: 0}
+        Damage: 15
+      BuffData: {fileID: 11400000, guid: c760e6e946fe007408e9a23c8e35a14e, type: 2}
+      BuffOnly: 0
+      HitOnce: 0
+      IsDirectHit: 1
+    HitstopFrame: 0
+  Vfx:
+    Enabled: 0
+    Vfxs: []
+  SpawnBullet:
+    Enabled: 1
+    Bullets:
+    - ConditionType: 1
+      ConditionFrame: 10000
+      ConditionEvent: 3
+      Prefab: {fileID: 1697926735070069854, guid: c5182476bd485bc45abaeae056f9a2d1, type: 3}
+      Speed: 0
+      Angle: 0
+      AngleY: 0
+  MoveParabola:
+    Enabled: 0
+    GravityAccel: 0
+    Resistance: 0
+  Dp:
+    Enabled: 0
+    MaxDp: 1
