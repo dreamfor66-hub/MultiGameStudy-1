@@ -10,13 +10,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
-  m_Name: Data_Bullet_Archer_Basicattack
+  m_Name: Data_Bullet_Archer_SkillS
   m_EditorClassIdentifier: 
   Common:
     LifeTimeFrame: 20
     IsTeamFixed: 0
     FixedTeam: 0
-    DespawnBy: 0100000004000000
+    DespawnBy: 04000000
     DespawnDelayFrame: 0
   Attack:
     Enabled: 1
@@ -31,16 +31,16 @@ MonoBehaviour:
         Event: 0
       HitboxInfo:
         Knockback:
-          Strength: 0
-          Distance: 0.5
-          KnockStopFrame: 10
+          Strength: 2
+          Distance: 5
+          KnockStopFrame: 1500
           TypeRatio: 0
           InverseKnockback: 0
         HitFx: {fileID: 11400000, guid: 5187e1b136ec9ec4eb69315c4182b9b9, type: 2}
-        Damage: 4
+        Damage: 12
       BuffData: {fileID: 0}
       BuffOnly: 0
-      HitOnce: 1
+      HitOnce: 0
       IsDirectHit: 1
     HitstopFrame: 0
   Vfx:
