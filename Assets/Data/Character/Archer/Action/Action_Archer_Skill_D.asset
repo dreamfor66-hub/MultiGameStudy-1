@@ -90,7 +90,13 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  MoveData: []
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 60
+    FixedDirMoveSpeed: 5
+    FixedRotSpeed: 360
+    FollowTargetSpeed: 0
+    LookingTarget: 0
   MoveCurveX:
     serializedVersion: 2
     m_Curve: []
