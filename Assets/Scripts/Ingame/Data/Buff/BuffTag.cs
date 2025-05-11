@@ -59,6 +59,10 @@ namespace Rogue.Ingame.Data.Buff
         //Archer
         ArcherBasicRandomMotion = 10301,
 
+        MageSkill_Thunder = 10401,
+        MageSkill_Fire = 10402,
+        MageSkill_Ice = 10403,
+
         
 
         //몬스터 전용

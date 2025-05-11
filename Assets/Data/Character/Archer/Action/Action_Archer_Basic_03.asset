@@ -22,16 +22,16 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 1
-      outSlope: 2.142496
+      outSlope: 1.6428347
       tangentMode: 69
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
       time: 8.0695505
-      value: 17.28898
-      inSlope: 2.142496
-      outSlope: 0.9004231
+      value: 13.256937
+      inSlope: 1.6428347
+      outSlope: 1.4290599
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
@@ -39,7 +39,7 @@ MonoBehaviour:
     - serializedVersion: 3
       time: 15.696798
       value: 24.15673
-      inSlope: 0.9004231
+      inSlope: 1.4290599
       outSlope: 0.14824645
       tangentMode: 69
       weightedMode: 0
@@ -117,22 +117,22 @@ MonoBehaviour:
   StatusData: []
   MonsterSpawnData: []
   BuffData:
-  - Frame: 35
+  - Frame: 36
     Buff: {fileID: 11400000, guid: e2188db31bbdfaa4d9ebac6aa55743a4, type: 2}
   ExitableFrame: 58
   CustomStates:
   - Key: LightCombo01
     StartFrame: 50
     EndFrame: 60
-  - Key: Evadable
+  - Key: SpecialCombo01
     StartFrame: 40
     EndFrame: 60
   AttackType: 1
-  EnableAutoCorrection: 0
-  AutoCorrectionMaxDistance: 1500
+  EnableAutoCorrection: 1
+  AutoCorrectionMaxDistance: 20
   AutoCorrectionDefaultDistance: 120
-  AutoCorrectionMaxAngle: 90
-  AutoCorrectionMinAngle: -90
+  AutoCorrectionMaxAngle: 180
+  AutoCorrectionMinAngle: 20
   StaminaUse: 0
   StackUse: 0
   CoolTimeFrame: 0

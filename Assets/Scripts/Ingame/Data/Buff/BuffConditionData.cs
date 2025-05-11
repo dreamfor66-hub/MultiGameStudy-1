@@ -1,4 +1,4 @@
-using Rogue.Ingame.Entity;
+﻿using Rogue.Ingame.Entity;
 using Sirenix.OdinInspector;
 namespace Rogue.Ingame.Data.Buff
 {
@@ -19,6 +19,7 @@ namespace Rogue.Ingame.Data.Buff
         OwnerHasBuffTag,
         RootHasBuffTag,
         OwnerIsBoss,
+        OwnerHasNotBuffTag,
     }
 
     [System.Serializable]
@@ -26,7 +27,8 @@ namespace Rogue.Ingame.Data.Buff
     {
         public BuffConditionType ConditionType;
         public bool ShowTag => ConditionType == BuffConditionType.OwnerHasBuffTag ||
-                               ConditionType == BuffConditionType.RootHasBuffTag;
+                               ConditionType == BuffConditionType.RootHasBuffTag ||
+                                ConditionType == BuffConditionType.OwnerHasNotBuffTag;
         public bool ShowOp => ConditionType == BuffConditionType.OwnerHpPercent ||
                                ConditionType == BuffConditionType.OwnerIsBoss;
 

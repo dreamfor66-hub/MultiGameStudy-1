@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Action_Archer_Evade
   m_EditorClassIdentifier: 
   ActionKey: Evade
-  TotalFrame: 72
-  AnimationOriginalFrame: 72
+  TotalFrame: 70
+  AnimationOriginalFrame: 70
   AnimationAdjustCurve:
     serializedVersion: 2
     m_Curve:
@@ -22,69 +22,51 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 1
-      outSlope: 0.16038305
+      outSlope: 2.2134445
       tangentMode: 69
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 4.5830755
-      value: 0.7350476
-      inSlope: 0.16038305
-      outSlope: 1.2797521
+      time: 10.2073555
+      value: 22.593414
+      inSlope: 2.2134445
+      outSlope: 0.44857177
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 6.8722944
-      value: 3.6646805
-      inSlope: 1.2797521
-      outSlope: 4.2894406
+      time: 34.711117
+      value: 33.58511
+      inSlope: 0.44857177
+      outSlope: 0.6189607
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 10.912115
-      value: 20.993252
-      inSlope: 4.2894406
-      outSlope: 1.5213493
+      time: 44.98709
+      value: 39.945534
+      inSlope: 0.6189607
+      outSlope: 2.510451
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 25.763319
-      value: 43.58712
-      inSlope: 1.5213493
-      outSlope: 1.7832274
+      time: 50.005352
+      value: 52.543633
+      inSlope: 2.510451
+      outSlope: 0.87305206
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 35.865753
-      value: 61.60206
-      inSlope: 1.7832274
-      outSlope: 0.40377197
-      tangentMode: 69
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 51.93621
-      value: 68.09086
-      inSlope: 0.40377197
-      outSlope: 0.21640761
-      tangentMode: 69
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 70
-      value: 72
-      inSlope: 0.21640761
+      time: 70.00001
+      value: 70.00001
+      inSlope: 0.87305206
       outSlope: 1
       tangentMode: 69
       weightedMode: 0
@@ -97,7 +79,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.05229503
+      time: 0
       value: 0
       inSlope: 0
       outSlope: 0
@@ -106,7 +88,7 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.2189617
+      time: 0.16666667
       value: 3
       inSlope: 10
       outSlope: 10
@@ -115,8 +97,17 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.7004884
-      value: 5
+      time: 0.51666665
+      value: 5.5
+      inSlope: 0
+      outSlope: 12
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.68333334
+      value: 6.75
       inSlope: 0
       outSlope: 0
       tangentMode: 0
@@ -139,7 +130,35 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  AttackHitboxData: []
+  AttackHitboxData:
+  - GroupId: 101
+    ColliderId: 101
+    StartFrame: 0
+    EndFrame: 30
+    Info:
+      Knockback:
+        Strength: 1
+        Distance: 1
+        KnockStopFrame: 0
+        TypeRatio: 0.283
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: f5a93df71a362e948a5cf406e486dbed, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
+  - GroupId: 101
+    ColliderId: 101
+    StartFrame: 0
+    EndFrame: 30
+    Info:
+      Knockback:
+        Strength: 1
+        Distance: 1
+        KnockStopFrame: 0
+        TypeRatio: 0.283
+        InverseKnockback: 0
+      HitFx: {fileID: 11400000, guid: f5a93df71a362e948a5cf406e486dbed, type: 2}
+      Damage: 10
+    BuffData: {fileID: 0}
   BulletPatternData:
     StartFrame: 0
     BulletPrefab2: {fileID: 0}
@@ -147,23 +166,29 @@ MonoBehaviour:
     RandomizedPatternData: {fileID: 0}
   BulletSpawnData: []
   VfxData: []
-  StatusData: []
+  StatusData:
+  - Type: 1
+    StartFrame: 0
+    EndFrame: 30
   MonsterSpawnData: []
   BuffData: []
   ExitableFrame: 40
   CustomStates:
   - Key: LightCombo01
-    StartFrame: 20
-    EndFrame: 72
-  AttackType: 0
-  EnableAutoCorrection: 0
-  AutoCorrectionMaxDistance: 0
+    StartFrame: 36
+    EndFrame: 70
+  - Key: EvadeAttack
+    StartFrame: 22
+    EndFrame: 70
+  AttackType: 8
+  EnableAutoCorrection: 1
+  AutoCorrectionMaxDistance: 5
   AutoCorrectionDefaultDistance: 120
-  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMaxAngle: 45
   AutoCorrectionMinAngle: 2
   StaminaUse: 0
   StackUse: 0
-  CoolTimeFrame: 70
+  CoolTimeFrame: 75
   CanBeInHurt: 0
   IsBackStep: 0
   IsAttack: 1

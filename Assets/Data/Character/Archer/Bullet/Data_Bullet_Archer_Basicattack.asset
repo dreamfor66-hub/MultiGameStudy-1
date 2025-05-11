@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3f24bb811bc3453aa7973535222b9c5c, type: 3}
-  m_Name: Data_Bullet_Archer_Basicattack
+  m_Name: Data_Bullet_Archer_BasicAttack
   m_EditorClassIdentifier: 
   Common:
     LifeTimeFrame: 20
@@ -21,8 +21,8 @@ MonoBehaviour:
   Attack:
     Enabled: 1
     Attacks:
-    - AnchorId: 0
-      GroupId: 0
+    - AnchorId: 100
+      GroupId: 100
       TeamFilter: 0
       Condition:
         Type: 0
@@ -32,16 +32,16 @@ MonoBehaviour:
       HitboxInfo:
         Knockback:
           Strength: 0
-          Distance: 0.5
+          Distance: 0.1
           KnockStopFrame: 10
-          TypeRatio: 0
+          TypeRatio: 1
           InverseKnockback: 0
-        HitFx: {fileID: 11400000, guid: 5187e1b136ec9ec4eb69315c4182b9b9, type: 2}
-        Damage: 4
+        HitFx: {fileID: 11400000, guid: 055f4196777f29f4d9a1b9f16c2372bb, type: 2}
+        Damage: 5
       BuffData: {fileID: 0}
       BuffOnly: 0
-      HitOnce: 1
-      IsDirectHit: 1
+      HitOnce: 0
+      IsDirectHit: 0
     HitstopFrame: 0
   Vfx:
     Enabled: 0
@@ -53,8 +53,8 @@ MonoBehaviour:
     Enabled: 0
     Bullets: []
   MoveParabola:
-    Enabled: 0
-    GravityAccel: 0
+    Enabled: 1
+    GravityAccel: 30
     Resistance: 0
   Dp:
     Enabled: 0

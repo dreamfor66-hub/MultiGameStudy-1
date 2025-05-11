@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
+  m_Name: Action_Mage_Skill_A
+  m_EditorClassIdentifier: 
+  ActionKey: Skill_A
+  TotalFrame: 50
+  AnimationOriginalFrame: 72
+  AnimationAdjustCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 1
+      outSlope: 2.8226693
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 10.0053425
+      value: 28.241774
+      inSlope: 2.8226693
+      outSlope: 0.58517593
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 30.103832
+      value: 40.002926
+      inSlope: 0.58517593
+      outSlope: 1.6093235
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 49.986145
+      value: 72
+      inSlope: 1.6093235
+      outSlope: 1
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurve:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveData: []
+  MoveCurveX:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  MoveCurveY:
+    serializedVersion: 2
+    m_Curve: []
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  AttackHitboxData: []
+  BulletPatternData:
+    StartFrame: 0
+    BulletPrefab2: {fileID: 0}
+    PatternData: {fileID: 0}
+    RandomizedPatternData: {fileID: 0}
+  BulletSpawnData: []
+  VfxData: []
+  StatusData: []
+  MonsterSpawnData: []
+  BuffData:
+  - Frame: 30
+    Buff: {fileID: 11400000, guid: d92aed741be7411408818f55616e2d74, type: 2}
+  ExitableFrame: 45
+  CustomStates: []
+  AttackType: 64
+  EnableAutoCorrection: 0
+  AutoCorrectionMaxDistance: 0
+  AutoCorrectionDefaultDistance: 120
+  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMinAngle: 2
+  StaminaUse: 0
+  StackUse: 0
+  CoolTimeFrame: 0
+  CanBeInHurt: 0
+  IsBackStep: 0
+  IsAttack: 0

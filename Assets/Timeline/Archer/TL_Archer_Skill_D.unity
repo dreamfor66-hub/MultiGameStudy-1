@@ -123,7 +123,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1001 &769446788
+--- !u!1001 &1296060949
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -178,48 +178,42 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2851844523292793404, guid: a5fa2e91029d29f4d94565f1165b5f3d, type: 3}
-      propertyPath: m_ApplyRootMotion
-      value: 0
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a5fa2e91029d29f4d94565f1165b5f3d, type: 3}
---- !u!1 &769446789 stripped
+--- !u!1 &1296060950 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2851844523285538906, guid: a5fa2e91029d29f4d94565f1165b5f3d, type: 3}
-  m_PrefabInstance: {fileID: 769446788}
+  m_PrefabInstance: {fileID: 1296060949}
   m_PrefabAsset: {fileID: 0}
---- !u!95 &769446790 stripped
+--- !u!95 &1296060951 stripped
 Animator:
   m_CorrespondingSourceObject: {fileID: 2851844523292793404, guid: a5fa2e91029d29f4d94565f1165b5f3d, type: 3}
-  m_PrefabInstance: {fileID: 769446788}
+  m_PrefabInstance: {fileID: 1296060949}
   m_PrefabAsset: {fileID: 0}
---- !u!4 &769446791 stripped
+--- !u!4 &1296060952 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2851844523285575098, guid: a5fa2e91029d29f4d94565f1165b5f3d, type: 3}
-  m_PrefabInstance: {fileID: 769446788}
+  m_PrefabInstance: {fileID: 1296060949}
   m_PrefabAsset: {fileID: 0}
---- !u!320 &769446792
+--- !u!320 &1296060953
 PlayableDirector:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 769446789}
+  m_GameObject: {fileID: 1296060950}
   m_Enabled: 1
   serializedVersion: 3
-  m_PlayableAsset: {fileID: 11400000, guid: a738aa01b73459549adc7d73576fbb33, type: 2}
+  m_PlayableAsset: {fileID: 11400000, guid: c0b98e196d65cef43984d84a311a1357, type: 2}
   m_InitialState: 1
   m_WrapMode: 2
   m_DirectorUpdateMode: 1
   m_InitialTime: 0
   m_SceneBindings:
-  - key: {fileID: -4964790606910063178, guid: a738aa01b73459549adc7d73576fbb33, type: 2}
-    value: {fileID: 769446790}
-  - key: {fileID: 1336723281476548318, guid: a738aa01b73459549adc7d73576fbb33, type: 2}
-    value: {fileID: 769446791}
-  - key: {fileID: -4576226308384592427, guid: a738aa01b73459549adc7d73576fbb33, type: 2}
-    value: {fileID: 0}
+  - key: {fileID: -5680266127265331605, guid: c0b98e196d65cef43984d84a311a1357, type: 2}
+    value: {fileID: 1296060951}
+  - key: {fileID: 3560804742463913603, guid: c0b98e196d65cef43984d84a311a1357, type: 2}
+    value: {fileID: 1296060952}
   m_ExposedReferences:
     m_References: []
 --- !u!1001 &64696934887193535
@@ -229,6 +223,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1615282594320825231, guid: 97930defbcf2d82489c580e68e5a0a2a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.6793484
+      objectReference: {fileID: 0}
+    - target: {fileID: 1615282594320825231, guid: 97930defbcf2d82489c580e68e5a0a2a, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -34.2876
+      objectReference: {fileID: 0}
     - target: {fileID: 6854421508839801269, guid: 97930defbcf2d82489c580e68e5a0a2a, type: 3}
       propertyPath: m_Name
       value: Timeline_Environment

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Action_Archer_Skill_D
   m_EditorClassIdentifier: 
   ActionKey: Skill_D
-  TotalFrame: 130
-  AnimationOriginalFrame: 130
+  TotalFrame: 76
+  AnimationOriginalFrame: 76
   AnimationAdjustCurve:
     serializedVersion: 2
     m_Curve:
@@ -22,17 +22,53 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 1
-      outSlope: 1
-      tangentMode: 0
+      outSlope: 2.175018
+      tangentMode: 69
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 130
-      value: 130
-      inSlope: 1
+      time: 5.14518
+      value: 11.19086
+      inSlope: 2.175018
+      outSlope: 2.1347432
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 14.518093
+      value: 31.199623
+      inSlope: 2.1347432
+      outSlope: 1.3508164
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 18.928658
+      value: 37.157486
+      inSlope: 1.3508164
+      outSlope: 1.0882277
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 29.89681
+      value: 49.093334
+      inSlope: 1.0882277
+      outSlope: 0.58361834
+      tangentMode: 69
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 76
+      value: 76
+      inSlope: 0.58361834
       outSlope: 1
-      tangentMode: 0
+      tangentMode: 69
       weightedMode: 0
       inWeight: 0
       outWeight: 0
@@ -43,7 +79,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.21666667
+      time: 0.083333336
       value: 0
       inSlope: 0
       outSlope: -10
@@ -52,36 +88,18 @@ MonoBehaviour:
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.5
+      time: 0.33333334
+      value: -2
+      inSlope: 0
+      outSlope: -10
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.71666664
       value: -3
-      inSlope: 2
-      outSlope: -10
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1
-      value: -5
       inSlope: 0
-      outSlope: 0
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1.1166667
-      value: -5
-      inSlope: 0
-      outSlope: -10
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0
-      outWeight: 0
-    - serializedVersion: 3
-      time: 1.4
-      value: -6
-      inSlope: 2
       outSlope: 0
       tangentMode: 0
       weightedMode: 0
@@ -90,13 +108,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  MoveData:
-  - StartFrame: 0
-    EndFrame: 60
-    FixedDirMoveSpeed: 5
-    FixedRotSpeed: 360
-    FollowTargetSpeed: 0
-    LookingTarget: 0
+  MoveData: []
   MoveCurveX:
     serializedVersion: 2
     m_Curve: []
@@ -115,18 +127,30 @@ MonoBehaviour:
     BulletPrefab2: {fileID: 0}
     PatternData: {fileID: 0}
     RandomizedPatternData: {fileID: 0}
-  BulletSpawnData: []
+  BulletSpawnData:
+  - Frame: 20
+    BulletPrefab2: {fileID: 2130990159804432004, guid: 15f501adbd1313b4599de912934b36a2, type: 3}
+    Speed: 45
+    AnchorUsage: 0
+    AnchorId: 0
+    Position: {x: 0.2, y: 3.5, z: 0}
+    RandomPosition:
+      x: 0
+      z: 0
+    Angle: -1
+    AngleYMin: -5
+    AngleYMax: -5
   VfxData: []
   StatusData: []
   MonsterSpawnData: []
   BuffData: []
-  ExitableFrame: 130
+  ExitableFrame: 60
   CustomStates: []
-  AttackType: 0
-  EnableAutoCorrection: 0
-  AutoCorrectionMaxDistance: 0
+  AttackType: 64
+  EnableAutoCorrection: 1
+  AutoCorrectionMaxDistance: 20
   AutoCorrectionDefaultDistance: 120
-  AutoCorrectionMaxAngle: 40
+  AutoCorrectionMaxAngle: 120
   AutoCorrectionMinAngle: 2
   StaminaUse: 0
   StackUse: 0

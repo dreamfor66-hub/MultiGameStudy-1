@@ -17,8 +17,71 @@ MonoBehaviour:
   Speed: 6.5
   WalkSpeed: 2
   AppearAction: {fileID: 0}
-  CommandToActions: []
-  PossibleActions: []
+  CommandToActions:
+  - StateKey: LightCombo01
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: d51e6754f6a6f5441a33d213a4cedf92, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: e68ea62e2b124784ab8008f9f25c191c, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: bf59f124cf5d9234a9f020e02ba6a363, type: 2}
+  - StateKey: DashAttack
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 395c2d51e953a1a4ea97cecfe71c0723, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: 7eda965140f9b5240874fc55d2033ec9, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 2
+    Action: {fileID: 11400000, guid: c1d5d757e95cb884abc069d2ddb88f7f, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 5
+    Action: {fileID: 11400000, guid: 7b3b5bde622acdf4a8987a39d61dd150, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 6
+    Action: {fileID: 11400000, guid: a61c43e961f3b484ebc8ab47255005ec, type: 2}
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 7
+    Action: {fileID: 11400000, guid: 2452ed0a909dd944da23be51c6ec10fa, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: d51e6754f6a6f5441a33d213a4cedf92, type: 2}
+  - {fileID: 11400000, guid: e68ea62e2b124784ab8008f9f25c191c, type: 2}
+  - {fileID: 11400000, guid: bf59f124cf5d9234a9f020e02ba6a363, type: 2}
+  - {fileID: 11400000, guid: 395c2d51e953a1a4ea97cecfe71c0723, type: 2}
+  - {fileID: 11400000, guid: 7eda965140f9b5240874fc55d2033ec9, type: 2}
+  - {fileID: 11400000, guid: 7b3b5bde622acdf4a8987a39d61dd150, type: 2}
+  - {fileID: 11400000, guid: 2452ed0a909dd944da23be51c6ec10fa, type: 2}
+  - {fileID: 11400000, guid: a61c43e961f3b484ebc8ab47255005ec, type: 2}
+  - {fileID: 11400000, guid: c1d5d757e95cb884abc069d2ddb88f7f, type: 2}
   KnockbackMidGetUpFrame: 0
   KnockbackMidUseHeight: 0
   KnockbackHighGetUpFrame: 0

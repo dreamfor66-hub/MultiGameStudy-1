@@ -180,7 +180,13 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  MoveData: []
+  MoveData:
+  - StartFrame: 10
+    EndFrame: 90
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 3
+    FollowTargetSpeed: 0
+    LookingTarget: 0
   MoveCurveX:
     serializedVersion: 2
     m_Curve: []
@@ -218,12 +224,12 @@ MonoBehaviour:
   BuffData: []
   ExitableFrame: 140
   CustomStates: []
-  AttackType: 0
-  EnableAutoCorrection: 0
-  AutoCorrectionMaxDistance: 0
+  AttackType: 64
+  EnableAutoCorrection: 1
+  AutoCorrectionMaxDistance: 20
   AutoCorrectionDefaultDistance: 120
-  AutoCorrectionMaxAngle: 40
-  AutoCorrectionMinAngle: 2
+  AutoCorrectionMaxAngle: 180
+  AutoCorrectionMinAngle: 180
   StaminaUse: 0
   StackUse: 0
   CoolTimeFrame: 0

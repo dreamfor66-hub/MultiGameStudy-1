@@ -33,6 +33,8 @@ namespace Rogue.Ingame.Buff
                     }
                 case BuffConditionType.OwnerHasBuffTag:
                     return buffs.Any(x => x.Data.Tags.Any(t => t == conditionData.Tag));
+                case BuffConditionType.OwnerHasNotBuffTag:
+                    return !buffs.Any(x => x.Data.Tags.Any(t => t == conditionData.Tag));
                 case BuffConditionType.RootHasBuffTag:
                     if (root is CharacterBehaviour character)
                         return character.BuffAccepter.GetBuffs().Any(x => x.Data.Tags.Any(t => t == conditionData.Tag));
