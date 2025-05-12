@@ -10,11 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ab7b181d753986348a14869f36fa08d5, type: 3}
-  m_Name: Action_Mage_Evade
+  m_Name: Action_Ninja_Evade
   m_EditorClassIdentifier: 
   ActionKey: Evade
-  TotalFrame: 80
-  AnimationOriginalFrame: 80
+  TotalFrame: 52
+  AnimationOriginalFrame: 52
   AnimationAdjustCurve:
     serializedVersion: 2
     m_Curve:
@@ -22,33 +22,33 @@ MonoBehaviour:
       time: 0
       value: 0
       inSlope: 1
-      outSlope: 0.8097839
+      outSlope: 1.2861278
       tangentMode: 69
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 7.683124
-      value: 6.22167
-      inSlope: 0.8097839
-      outSlope: 1.548406
+      time: 19.97646
+      value: 25.69228
+      inSlope: 1.2861278
+      outSlope: 0.85051036
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 20.120457
-      value: 25.47971
-      inSlope: 1.548406
-      outSlope: 0.91049945
+      time: 24.96861
+      value: 29.938156
+      inSlope: 0.85051036
+      outSlope: 0.8161565
       tangentMode: 69
       weightedMode: 0
       inWeight: 0.33333334
       outWeight: 0.33333334
     - serializedVersion: 3
-      time: 80
-      value: 80
-      inSlope: 0.91049945
+      time: 52.000004
+      value: 52.000004
+      inSlope: 0.8161565
       outSlope: 1
       tangentMode: 69
       weightedMode: 0
@@ -61,34 +61,25 @@ MonoBehaviour:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
-      time: 0.13333334
+      time: 0.05
       value: 0
       inSlope: 0
-      outSlope: 0
+      outSlope: 40
       tangentMode: 0
       weightedMode: 0
       inWeight: 0
       outWeight: 0
     - serializedVersion: 3
-      time: 0.2750625
-      value: 3.246759
-      inSlope: 12.375524
-      outSlope: 12.375524
+      time: 0.33333334
+      value: 4
+      inSlope: 5
+      outSlope: 10
       tangentMode: 0
       weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
+      inWeight: 0
+      outWeight: 0
     - serializedVersion: 3
-      time: 0.39845484
-      value: 3.9393077
-      inSlope: 7.334621
-      outSlope: 7.334621
-      tangentMode: 0
-      weightedMode: 0
-      inWeight: 0.33333334
-      outWeight: 0.33333334
-    - serializedVersion: 3
-      time: 0.6333333
+      time: 0.5
       value: 5
       inSlope: 0
       outSlope: 0
@@ -99,7 +90,13 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  MoveData: []
+  MoveData:
+  - StartFrame: 0
+    EndFrame: 60
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 360
+    FollowTargetSpeed: 0
+    LookingTarget: 0
   MoveCurveX:
     serializedVersion: 2
     m_Curve: []
@@ -120,20 +117,17 @@ MonoBehaviour:
     RandomizedPatternData: {fileID: 0}
   BulletSpawnData: []
   VfxData: []
-  StatusData:
-  - Type: 5
-    StartFrame: 13
-    EndFrame: 35
+  StatusData: []
   MonsterSpawnData: []
   BuffData: []
   ExitableFrame: 40
   CustomStates:
   - Key: DashAttack
-    StartFrame: 25
-    EndFrame: 35
+    StartFrame: 20
+    EndFrame: 52
   AttackType: 8
   EnableAutoCorrection: 0
-  AutoCorrectionMaxDistance: 20
+  AutoCorrectionMaxDistance: 5
   AutoCorrectionDefaultDistance: 120
   AutoCorrectionMaxAngle: 180
   AutoCorrectionMinAngle: 2
@@ -142,4 +136,4 @@ MonoBehaviour:
   CoolTimeFrame: 90
   CanBeInHurt: 0
   IsBackStep: 0
-  IsAttack: 0
+  IsAttack: 1

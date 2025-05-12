@@ -14,11 +14,45 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   AccTime: 0.1
   RotateSpeed: 1080
-  Speed: 10
+  Speed: 9
   WalkSpeed: 2
   AppearAction: {fileID: 0}
-  CommandToActions: []
-  PossibleActions: []
+  CommandToActions:
+  - StateKey: 
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 142812f1b8bb3a7498b17f088b4fa91e, type: 2}
+  - StateKey: LightCombo01
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: 8d4173f4a75837a49a4cea6336a82398, type: 2}
+  - StateKey: LightCombo02
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: bcb001cda1690724fb618ac1f7fd52d2, type: 2}
+  - StateKey: DashAttack
+    FromIdle: 0
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 1
+    Action: {fileID: 11400000, guid: d981af52ed6ff494f98178d41dbb7b64, type: 2}
+  - StateKey: Evadable
+    FromIdle: 1
+    FromGetup: 0
+    DirectionMask: 3
+    Command: 3
+    Action: {fileID: 11400000, guid: bbacf4d0f5d96a1478f426fb18a3824e, type: 2}
+  PossibleActions:
+  - {fileID: 11400000, guid: 142812f1b8bb3a7498b17f088b4fa91e, type: 2}
+  - {fileID: 11400000, guid: 8d4173f4a75837a49a4cea6336a82398, type: 2}
+  - {fileID: 11400000, guid: bcb001cda1690724fb618ac1f7fd52d2, type: 2}
+  - {fileID: 11400000, guid: bbacf4d0f5d96a1478f426fb18a3824e, type: 2}
   KnockbackMidGetUpFrame: 0
   KnockbackMidUseHeight: 0
   KnockbackHighGetUpFrame: 0
