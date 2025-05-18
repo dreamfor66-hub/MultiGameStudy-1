@@ -67,7 +67,13 @@ MonoBehaviour:
   - StartFrame: 0
     EndFrame: 5
     FixedDirMoveSpeed: 13
-    FixedRotSpeed: 0
+    FixedRotSpeed: 360
+    FollowTargetSpeed: 0
+    LookingTarget: 0
+  - StartFrame: 5
+    EndFrame: 12
+    FixedDirMoveSpeed: 0
+    FixedRotSpeed: 360
     FollowTargetSpeed: 0
     LookingTarget: 0
   - StartFrame: 12
